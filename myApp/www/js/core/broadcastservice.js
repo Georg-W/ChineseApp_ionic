@@ -5,9 +5,10 @@
     'use strict';
 
     angular.module('myApp.core')
-        .factory('broadcastservice', ['$rootScope',function($rootScope) {
+        .factory('broadcastservice', ['$rootScope', function($rootScope) {
         return {
             send: function(msg, data) {
+
                 $rootScope.$broadcast(msg, data);
             }
         }
