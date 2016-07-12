@@ -3,28 +3,36 @@
         <form id="quiz-form4" class="list ">
             <label class="item item-select " id="quiz-select3">
                 <span class="input-label">Chapter</span>
-                <select>
-                    <option>All</option>
-                    <option>1 - Introduction</option>
-                    <option>2 - Work</option>
-                    <option>3 - Countries</option>
-                    <option>4 - Numbers</option>
-                    <option>5 - Hotel</option>
-                    <option>6 - Food</option>
-                    <option>7 - Family</option>
-                    <option>8 - Transportation</option>
+                <select ng-model="chapter" ng-change="takeOverChapter(chapter)">
+                    <option value=" ">All</option>
+                    <option value="1">1 - Introduction</option>
+                    <option value="2">2 - Work</option>
+                    <option value="3">3 - Countries</option>
+                    <option value="4">4 - Numbers</option>
+                    <option value="5">5 - Hotel</option>
+                    <option value="6">6 - Food</option>
+                    <option value="7">7 - Family</option>
+                    <option value="8">8 - Transportation</option>
                 </select>
             </label>
         </form>
         <div id="quiz-button-bar1" class=" button-bar ">
-            <button id="quiz-button6" class=" button button-positive  button-block ">previous</button>
-            <button id="quiz-button8" class=" button button-positive  button-block ">next</button>
+            <button id="quiz-button6" class=" button button-positive  button-block " ng-click="Minus()">previous</button>
+            <button id="quiz-button8" class=" button button-positive  button-block " ng-click="Add()">next</button>
         </div>
         <div class="list card " id="quiz-card21">
-            <ion-item id="quiz-list-item13" class="  ">Character</ion-item>
-            <ion-item id="quiz-list-item15" class="  ">Pinyin</ion-item>
-            <ion-item id="quiz-list-item16" class="  ">Translation</ion-item>
+            <ion-item id="quiz-list-item13" class="  " ng-show="Cards[index].characterShow">{{Cards[index].character}}</ion-item>
+            <ion-item id="quiz-list-item15" class="  " ng-show="Cards[index].pinyinShow == false">{{Cards[index].pinyin}}</ion-item>
+
+            <div ng-show="Cards[index].translationShow == false">
+                <div ng-show="language == 'de'">
+                  <ion-item id="quiz-list-item16" class="  ">{{Cards[index].translation_d}}</ion-item>
+                </div>
+                <div ng-show="language == 'en'">
+                  <ion-item id="quiz-list-item17" class="  ">{{Cards[index].translation_e}}</ion-item>
+                </div>
+            </div>
         </div>
-        <button id="quiz-button9" class=" button button-positive  button-block ">Turn Card</button>
+        <button id="quiz-button9" class=" button button-positive  button-block " ng-click="answer()">Turn Card</button>
     </ion-content>
 </ion-view>

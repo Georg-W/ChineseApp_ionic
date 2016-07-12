@@ -8,7 +8,7 @@
         .factory('dataservice', ['$http',function($http){
 
 
-            var urlBase_Links = 'public/immersion/Immersion.json';
+            var urlBase_Links = 'Links.json';
             var urlBase_Cards = 'Flashcardstest.json';
             //var urlBase_Links = 'immersion/Immersion.json';
 

@@ -14,6 +14,7 @@
 
             $scope.$on('changeLanguage',function(msg,lang){
                 $scope.language = lang;
+              console.log("language switched");
             });
 
             getCards();
@@ -32,7 +33,7 @@
                             var index=0;
                             var count = -1;  // for cardArray // Of by one Issue with Chapter Selection
                             var cardArray;
-                            var chapter; // in takeOverChapter , takes value from directive
+                            var chapter = "7";
                             var chapterChanged = false; //changeChapter
                             var tone; ////cardTone()/////
                             var color; ////cardTone()////
@@ -40,9 +41,10 @@
                             var wrongAnswer = []; // wrong()
 
 
-                            $scope.takeOverChapter= function(){
+                            $scope.takeOverChapter= function(chapter){
+                              console.log(chapter);
                                 cardArray=[j];
-                                chapter = $scope.chapterSelection;
+
                                 if(chapter == "All"){
                                     $scope.count = -1;
                                     cardArray=[$scope.Cards.length];

@@ -1,12 +1,43 @@
 <ion-view title="Immersion" hide-back-button="true" id="page7" class=" ">
     <ion-content padding="true" class="has-header">
-        <h1 id="immersion-heading2" style="color:#000000;" class=" ">Youtube able/ disable</h1>
+
         <ion-list id="immersion-list4" class=" ">
-            <ion-item id="immersion-list-item11" class="  ">ng-repeat youtube</ion-item>
-        </ion-list>
-        <h1 id="immersion-heading3" style="color:#000000;" class=" ">Heading</h1>
-        <ion-list id="immersion-list5" class=" ">
-            <ion-item id="immersion-list-item12" class="  ">ng-repeat else</ion-item>
+          <h1 class="categoryHeading" style="color:#000000;" class=" ">Youtube Channels</h1>
+          <ion-item id="immersion-list-item11" class="  " ng-repeat="Link in Links |filter:{category: 'youtubeChannel'}"> <a ng-href="{{Link.link}}">{{Link.title}}</a> <br>{{Link.description}}</ion-item>
+
+          <h1 class="categoryHeading" style="color:#000000;" class=" ">Movies</h1>
+          <ion-item id="immersion-list-item12" class="  " ng-repeat="Link in Links |filter:{category: 'movies'}"> <a ng-href="{{Link.link}}">{{Link.title}}</a> <br>{{Link.description}}</ion-item>
+
+          <h1 class="categoryHeading" style="color:#000000;" class=" ">Comedy</h1>
+          <ion-item id="immersion-list-item14" class="  " ng-repeat="Link in Links |filter:{category: 'comedy'}"> <a ng-href="{{Link.link}}">{{Link.title}}</a> <br>{{Link.description}}</ion-item>
+
+          <h1 class="categoryHeading" style="color:#000000;" class=" ">Music</h1>
+          <ion-item id="immersion-list-item15" class="  " ng-repeat="Link in Links |filter:{category: 'music'}"> <a ng-href="{{Link.link}}">{{Link.title}}</a> <br>{{Link.description}}</ion-item>
+
+          <h1 class="categoryHeading" style="color:#000000;" class=" ">Talks</h1>
+          <ion-item id="immersion-list-item16" class="  " ng-repeat="Link in Links |filter:{category: 'talks'}"> <a ng-href="{{Link.link}}">{{Link.title}}</a> <br>{{Link.description}}</ion-item>
+
+          <h1 class="categoryHeading" style="color:#000000;" class=" ">Podcasts</h1>
+          <ion-item id="immersion-list-item17" class="  " ng-repeat="Link in Links |filter:{category: 'podcasts'}"> <a ng-href="{{Link.link}}">{{Link.title}}</a> <br>{{Link.description}}</ion-item>
+
+          <h1 class="categoryHeading" style="color:#000000;" class=" ">Books</h1>
+          <ion-item id="immersion-list-item18" class="  " ng-repeat="Link in Links |filter:{category: 'books'}"> <a ng-href="{{Link.link}}">{{Link.title}}</a> <br>{{Link.description}}</ion-item>
+
+          <h1 class="categoryHeading" style="color:#000000;" class=" ">Culture & Art</h1>
+          <ion-item id="immersion-list-item19" class="  " ng-repeat="Link in Links |filter:{category: 'cultureArt'}"> <a ng-href="{{Link.link}}">{{Link.title}}</a> <br>{{Link.description}}</ion-item>
+
+          <h1 class="categoryHeading" style="color:#000000;" class=" ">Blogs</h1>
+          <ion-item id="immersion-list-item20" class="  " ng-repeat="Link in Links |filter:{category: 'blogs'}"> <a ng-href="{{Link.link}}">{{Link.title}}</a> <br>{{Link.description}}</ion-item>
+
+          <h1 class="categoryHeading" style="color:#000000;" class=" ">Martial Arts</h1>
+          <ion-item id="immersion-list-item21" class="  " ng-repeat="Link in Links |filter:{category: 'martialArts'}"> <a ng-href="{{Link.link}}">{{Link.title}}</a> <br>{{Link.description}}</ion-item>
+
+          <h1 class="categoryHeading" style="color:#000000;" class=" ">Philosophy</h1>
+          <ion-item id="immersion-list-item22" class="  " ng-repeat="Link in Links |filter:{category: 'philosophy'}"> <a ng-href="{{Link.link}}">{{Link.title}}</a> <br>{{Link.description}}</ion-item>
+
+          <h1 class="categoryHeading" style="color:#000000;" class=" ">Other</h1>
+          <ion-item id="immersion-list-item23" class="  " ng-repeat="Link in Links |filter:{category: 'other'}"> <a ng-href="{{Link.link}}">{{Link.title}}</a> <br>{{Link.description}}</ion-item>
+
         </ion-list>
     </ion-content>
 </ion-view>
