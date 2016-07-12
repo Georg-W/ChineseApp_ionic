@@ -4,7 +4,7 @@
             <label class="item item-select " id="flashcards-select1">
                 <span class="input-label">{{'FLASHCARDTABLE.CHAPTER_ID' | translate}}</span>
                 <select ng-model="chapterSelection">
-                    <option value="">{{'FLASHCARDTABLE.All_ID' | translate}}</option>
+                    <option value="">{{'FLASHCARDTABLE.ALL_ID' | translate}}</option>
                     <option value="1">{{'FLASHCARDTABLE.1_ID' | translate}}</option>
                     <option value="2">{{'FLASHCARDTABLE.2_ID' | translate}}</option>
                     <option value="3">{{'FLASHCARDTABLE.3_ID' | translate}}</option>
@@ -23,12 +23,11 @@
             <div class="spacer" style="width: 300px; height: 19px;"></div>
             <div>
             <ion-item id="flashcards-list-item7" class="  " ng-repeat="Card in Cards | filter  : chapterSelection | filter : search : ignoreTones | orderBy: sortField ">
-              <div>{{'FLASHCARDTABLE.CHARACTER_ID' | translate}}:{{Card.character}}</div>
-              <div>{{'FLASHCARDTABLE.PINYIN_ID' | translate}}:{{Card.pinyin}}</div>
-              <div ng-show="language=='de'">{{'FLASHCARDTABLE.TRANSLATION_ID' | translate}}:{{Card.translation_d}}</div>
-              <div ng-show="language == 'en'">{{'FLASHCARDTABLE.TRANSLATION_ID' | translate}}:{{Card.translation_e}}</div>
+              <div>{{Card.character}}</div>
+              <div>{{Card.pinyin}}</div>
+              <div ng-show="language=='de'">{{Card.translation_d}}</div>
+              <div ng-show="language == 'en'">{{Card.translation_e}}</div>
             </ion-item>
-
             </div>
         </form>
     </ion-content>

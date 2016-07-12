@@ -6,9 +6,15 @@
       "BACK":"Back"
     },
 
-    "LANGUAGES": {
-      "ENGLISH_ID":"english",
-      "GERMAN_ID":"german"
+    "MENU": {
+      "MENU_ID":"Menu",
+      "HOME_ID":"Home",
+      "FLASHCARDS_ID":"Flashcards",
+      "IMMERSION_ID":"Immersion",
+      "QUIZ_ID":"Quiz",
+      "ACCOUNT_ID":"Account",
+      "ABOUT_ID":"About",
+      "SETTINGS_ID":"Settings"
     },
 
     "FLASHCARDTABLE": {
@@ -28,41 +34,49 @@
       "TRANSLATION_ID": "Translation"
     },
     "QUIZ":{
-      "CHARACTERQUIZ_ID":"Characterquiz",
-      "PINYINQUIZ_ID":"Pinyinquiz",
-      "TRANSLATIONQUIZ_ID":"Translationquiz",
-      "HARDCORETRANSLATIONQUIZ_ID":"Hardcore Characterquiz",
+      "CHAPTER_ID": "Chapter",
+      "ALL_ID":"All",
+      "1_ID":"1 Introduction",
+      "2_ID":"2 Work",
+      "3_ID":"3 Countries",
+      "4_ID":"4 Counting",
+      "5_ID":"5 Hotel",
+      "6_ID":"6 Food",
+      "7_ID":"7 Family",
+      "8_ID":"8 Transportation",
       "CHARACTER_ID": "Character",
       "PINYIN_ID": "Pinyin",
       "TRANSLATION_ID": "Translation",
-      "YES_ID":"Yes",
-      "NO_ID":"No",
-      "ALL_ID":"All",
-      "CHAPTER_ID": "Chapter",
-      "KNOWN_ID":"Did you figure it out?",
       "NEXT_ID":"next",
       "BACK_ID":"back",
-      "ANSWER_ID":"Answer"
+      "TURNCARD_ID":"Turn Card",
+
+      "YES_ID":"Yes",
+      "NO_ID":"No",
+      "KNOWN_ID":"Did you figure it out?"
+
     },
 
-    "Immersion": {
-      "youTubeChannels": "YouTube channels",
-      "movies": "Filme",
-      "comedy": "Comedy",
-      "music": "Music",
-      "talks": "Talks",
-      "podcasts": "Podcasts",
-      "books": "Books",
-      "cultureArt": "Culture & Art",
-      "blogs": "Blogs",
-      "martialArts": "Martial Arts",
-      "travel": "Travel",
-      "products": "Products",
-      "philosophy": "philosophy",
-      "other": "Other Resources",
+    "IMMERSION": {
+      "YOUTUBECHANNELS_ID": "YouTube Channels",
+      "MOVIES_ID": "Movies",
+      "COMEDY_ID": "Comedy",
+      "MUSIC_ID": "Music",
+      "TALKS_ID": "Talks",
+      "PODCASTS_ID": "Podcasts",
+      "BOOKS_ID": "Books",
+      "CULTUREART_ID": "Culture & Art",
+      "BLOGS_ID": "Blogs",
+      "MARTIALARTS_ID": "Martial Arts",
+      "TRAVEL_ID": "Travel",
+      "PRODUCTS_ID": "Products",
+      "PHILOSOPHY_ID": "Philosophy",
+      "OTHER_ID": "Other Resources"
+    },
+
+    "SETTINGS": {
+      "LANGUAGE_ID":"Language"
     }
-
-
 
   }
 

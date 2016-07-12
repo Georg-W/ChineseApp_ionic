@@ -2,23 +2,23 @@
     <ion-content padding="true" class="has-header">
         <form id="quiz-form4" class="list ">
             <label class="item item-select " id="quiz-select3">
-                <span class="input-label">Chapter</span>
+                <span class="input-label">{{'QUIZ.CHAPTER_ID' | translate}}</span>
                 <select ng-model="chapter" ng-change="takeOverChapter(chapter)">
-                    <option value=" ">All</option>
-                    <option value="1">1 - Introduction</option>
-                    <option value="2">2 - Work</option>
-                    <option value="3">3 - Countries</option>
-                    <option value="4">4 - Numbers</option>
-                    <option value="5">5 - Hotel</option>
-                    <option value="6">6 - Food</option>
-                    <option value="7">7 - Family</option>
-                    <option value="8">8 - Transportation</option>
+                    <option value=" ">{{'QUIZ.ALL_ID' | translate}}</option>
+                    <option value="1">{{'QUIZ.1_ID' | translate}}</option>
+                    <option value="2">{{'QUIZ.2_ID' | translate}}</option>
+                    <option value="3">{{'QUIZ.3_ID' | translate}}</option>
+                    <option value="4">{{'QUIZ.4_ID' | translate}}</option>
+                    <option value="5">{{'QUIZ.5_ID' | translate}}</option>
+                    <option value="6">{{'QUIZ.6_ID' | translate}}</option>
+                    <option value="7">{{'QUIZ.7_ID' | translate}}</option>
+                    <option value="8">{{'QUIZ.8_ID' | translate}}</option>
                 </select>
             </label>
         </form>
         <div id="quiz-button-bar1" class=" button-bar ">
-            <button id="quiz-button6" class=" button button-positive  button-block " ng-click="Minus()">previous</button>
-            <button id="quiz-button8" class=" button button-positive  button-block " ng-click="Add()">next</button>
+            <button id="quiz-button6" class=" button button-positive  button-block " ng-click="Minus()">{{'QUIZ.BACK_ID' | translate}}</button>
+            <button id="quiz-button8" class=" button button-positive  button-block " ng-click="Add()">{{'QUIZ.NEXT_ID' | translate}}</button>
         </div>
         <div class="list card " id="quiz-card21">
             <ion-item id="quiz-list-item13" class="  " ng-show="Cards[index].characterShow">{{Cards[index].character}}</ion-item>
@@ -33,6 +33,6 @@
                 </div>
             </div>
         </div>
-        <button id="quiz-button9" class=" button button-positive  button-block " ng-click="answer()">Turn Card</button>
+        <button id="quiz-button9" class=" button button-positive  button-block " ng-click="answer()">{{'QUIZ.TURNCARD_ID' | translate}}</button>
     </ion-content>
 </ion-view>
