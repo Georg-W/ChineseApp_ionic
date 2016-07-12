@@ -11,6 +11,7 @@
                 $translate.use(langKey);
                 var lang = langKey;
                 broadcastservice.send('changeLanguage',lang);
+              console.log('lang got changed');
             };
 
         }]);

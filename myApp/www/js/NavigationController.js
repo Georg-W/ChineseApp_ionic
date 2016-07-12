@@ -11,6 +11,7 @@
 
              $scope.changeLanguage = function (langKey) {
                 languageservice.getLanguage(langKey);
+               console.log(langKey);
              };
 
 

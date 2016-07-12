@@ -19,6 +19,7 @@
 
             $scope.$on('changeLanguage',function(msg,lang){
                 $scope.language = lang;
+              console.log("passt");
             });
 
             $scope.chapterSelection = "";

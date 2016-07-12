@@ -3,24 +3,33 @@
         <form id="flashcards-form3" class="list ">
             <label class="item item-select " id="flashcards-select1">
                 <span class="input-label">Chapter</span>
-                <select>
-                    <option>1 Introduction</option>
-                    <option>2 Work</option>
-                    <option>3 Countries</option>
-                    <option>4 Counting</option>
-                    <option>5 Hotel</option>
-                    <option>6 Food</option>
-                    <option>7 Family</option>
-                    <option>8 Transportation</option>
+                <select ng-model="chapterSelection">
+                    <option value="">All</option>
+                    <option value="1">1 Introduction</option>
+                    <option value="2">2 Work</option>
+                    <option value="3">3 Countries</option>
+                    <option value="4">4 Counting</option>
+                    <option value="5">5 Hotel</option>
+                    <option value="6">6 Food</option>
+                    <option value="7">7 Family</option>
+                    <option value="8">8 Transportation</option>
                 </select>
             </label>
             <div class="spacer" style="width: 300px; height: 19px;"></div>
             <label class="item item-input " id="flashcards-input6">
-                <span class="input-label">Input</span>
-                <input type="text" placeholder="">
+                <span class="input-label">Search</span>
+                <input type="text" placeholder="" class="query" ng-model="search">
             </label>
             <div class="spacer" style="width: 300px; height: 19px;"></div>
-            <ion-item id="flashcards-list-item7" class="  ">ng-repeat Cards</ion-item>
+            <div>
+            <ion-item id="flashcards-list-item7" class="  " ng-repeat="Card in Cards | filter  : chapterSelection | filter : search : ignoreTones | orderBy: sortField ">
+              <div>{{Card.character}}</div>
+              <div>{{Card.pinyin}}</div>
+              <div ng-show="language=='de'">{{Card.translation_d}}</div>
+              <div ng-show="language == 'en'">{{Card.translation_e}}</div>
+            </ion-item>
+
+            </div>
         </form>
     </ion-content>
 </ion-view>

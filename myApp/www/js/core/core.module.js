@@ -5,12 +5,8 @@
     'use strict';
 
     angular.module('myApp.core', [
-        'ngRoute',
-        'ngAnimate',
         'pascalprecht.translate',
-        'ngMaterial',
-        'ngAria',
-        'firebase'
+        'ui.router'
     ]);
 
 })();
