@@ -2,31 +2,31 @@
     <ion-content padding="true" class="has-header">
         <form id="flashcards-form3" class="list ">
             <label class="item item-select " id="flashcards-select1">
-                <span class="input-label">Chapter</span>
+                <span class="input-label">{{'FLASHCARDTABLE.CHAPTER_ID' | translate}}</span>
                 <select ng-model="chapterSelection">
-                    <option value="">All</option>
-                    <option value="1">1 Introduction</option>
-                    <option value="2">2 Work</option>
-                    <option value="3">3 Countries</option>
-                    <option value="4">4 Counting</option>
-                    <option value="5">5 Hotel</option>
-                    <option value="6">6 Food</option>
-                    <option value="7">7 Family</option>
-                    <option value="8">8 Transportation</option>
+                    <option value="">{{'FLASHCARDTABLE.All_ID' | translate}}</option>
+                    <option value="1">{{'FLASHCARDTABLE.1_ID' | translate}}</option>
+                    <option value="2">{{'FLASHCARDTABLE.2_ID' | translate}}</option>
+                    <option value="3">{{'FLASHCARDTABLE.3_ID' | translate}}</option>
+                    <option value="4">{{'FLASHCARDTABLE.4_ID' | translate}}</option>
+                    <option value="5">{{'FLASHCARDTABLE.5_ID' | translate}}</option>
+                    <option value="6">{{'FLASHCARDTABLE.6_ID' | translate}}</option>
+                    <option value="7">{{'FLASHCARDTABLE.7_ID' | translate}}</option>
+                    <option value="8">{{'FLASHCARDTABLE.8_ID' | translate}}</option>
                 </select>
             </label>
             <div class="spacer" style="width: 300px; height: 19px;"></div>
             <label class="item item-input " id="flashcards-input6">
-                <span class="input-label">Search</span>
+                <span class="input-label">{{'FLASHCARDTABLE.SEARCH_ID' | translate}}</span>
                 <input type="text" placeholder="" class="query" ng-model="search">
             </label>
             <div class="spacer" style="width: 300px; height: 19px;"></div>
             <div>
             <ion-item id="flashcards-list-item7" class="  " ng-repeat="Card in Cards | filter  : chapterSelection | filter : search : ignoreTones | orderBy: sortField ">
-              <div>{{Card.character}}</div>
-              <div>{{Card.pinyin}}</div>
-              <div ng-show="language=='de'">{{Card.translation_d}}</div>
-              <div ng-show="language == 'en'">{{Card.translation_e}}</div>
+              <div>{{'FLASHCARDTABLE.CHARACTER_ID' | translate}}:{{Card.character}}</div>
+              <div>{{'FLASHCARDTABLE.PINYIN_ID' | translate}}:{{Card.pinyin}}</div>
+              <div ng-show="language=='de'">{{'FLASHCARDTABLE.TRANSLATION_ID' | translate}}:{{Card.translation_d}}</div>
+              <div ng-show="language == 'en'">{{'FLASHCARDTABLE.TRANSLATION_ID' | translate}}:{{Card.translation_e}}</div>
             </ion-item>
 
             </div>

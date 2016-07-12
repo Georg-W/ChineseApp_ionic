@@ -3,13 +3,9 @@
 
     "INDEX": {
       "PAGETITLE_ID": "Internet's Chinatown",
-      "MAIN_ID":"Main",
-      "QUIZ_ID":"Quiz",
-      "FLASHCARDTABLE_ID":"Flashcards",
-      "IMMERSION_ID":"Immersion",
-      "ACCOUNT_ID":"Account",
-      "ABOUT_ID":"About"
+      "BACK":"Back"
     },
+
     "LANGUAGES": {
       "ENGLISH_ID":"english",
       "GERMAN_ID":"german"
@@ -18,6 +14,14 @@
     "FLASHCARDTABLE": {
       "CHAPTER_ID": "Chapter",
       "ALL_ID":"All",
+      "1_ID":"1 Introduction",
+      "2_ID":"2 Work",
+      "3_ID":"3 Countries",
+      "4_ID":"4 Counting",
+      "5_ID":"5 Hotel",
+      "6_ID":"6 Food",
+      "7_ID":"7 Family",
+      "8_ID":"8 Transportation",
       "SEARCH_ID": "Search",
       "CHARACTER_ID": "Character",
       "PINYIN_ID": "Pinyin",
@@ -42,400 +46,20 @@
     },
 
     "Immersion": {
-
       "youTubeChannels": "YouTube channels",
-      "movies":"Filme",
-      "comedy":"Comedy",
-      "music":"Music",
-      "talks":"Talks",
-      "podcasts":"Podcasts",
-      "books":"Books",
-      "cultureArt":"Culture & Art",
-      "blogs":"Blogs",
-      "martialArts":"Martial Arts",
-      "travel":"Travel",
-      "products":"Products",
-      "philosophy":"philosophy",
-      "other":"Other Resources",
-
-
-      "YOUTUBECHANNELS":{
-        "a-OffTheGreatWall":{
-          "title":"Off the Great Wall",
-          "description":"#culture #food #history #everyday life",
-          "lang":"en",
-          "link":"https://www.youtube.com/user/NTDOffTheGreatWall"
-        },
-        "a-LearnChineseNow":{
-          "title":"Learn Chinese Now",
-          "description":"#basics #culture #grammar",
-          "lang":"en",
-          "link":"https://www.youtube.com/user/learnchinesenow"
-        },
-        "a-Tolocat":{
-          "title":"Tolocat",
-          "description":"#gaming #taiwan",
-          "lang":"cn",
-          "link":"https://www.youtube.com/user/tolocat"
-        },
-        "a-Charlie615119":{
-          "title":"阿神",
-          "description":"#gaming #taiwan",
-          "lang":"cn",
-          "link":"https://www.youtube.com/user/charlie615119"
-        },
-        "a-SmallM":{
-          "title":"SmallM",
-          "description":"#gaming #taiwan",
-          "lang":"cn",
-          "link":"https://www.youtube.com/user/SmAllM1987914"
-        },
-        "a-ChinaUncensored":{
-          "title":"China Uncensored",
-          "description":"#politics #news",
-          "lang":"en",
-          "link":"https://www.youtube.com/channel/UCgFP46yVT-GG4o1TgXn-04Q"
-        },
-        "a-Laowai":{
-          "title":"A Laowai's View of China & Taiwan",
-          "description":"#everything",
-          "lang":"cn",
-          "link":"https://www.youtube.com/user/Laowaikanzhongguo"
-        },
-        "a-DoubleChen":{
-          "title":"Double Chen",
-          "description":"#food #culture #history",
-          "lang":"en",
-          "link":"https://www.youtube.com/channel/UCTea-f-qnRoBFKUXCMaZVtQ"
-        },
-        "a-StrictlyDumpling":{
-          "title":"Strictly Dumpling",
-          "description":"#food #culture" ,
-          "lang":"en",
-          "link":"https://www.youtube.com/channel/UCXOKEdfOFxsHO_-Su3K8SHg"
-        },
-        "a-":{
-          "title":"",
-          "description":"",
-          "lang":"en",
-          "link":""
-        }
-
-
-
-      },
-      "MOVIES":{
-        "a-impetousLove":{
-          "title":"Impetuous Love",
-          "description":"#romantic comedy #subtitles #translation #martial arts",
-          "lang":"en",
-          "link":"https://www.youtube.com/watch?v=Kl6Lsxez2e4"
-        },
-        "a-":{
-          "title":"",
-          "description":"",
-          "lang":"en",
-          "link":""
-        },
-        "a-":{
-          "title":"",
-          "description":"",
-          "lang":"en",
-          "link":""
-        },
-        "a-":{
-          "title":"",
-          "description":"",
-          "lang":"en",
-          "link":""
-        }
-      },
-      "COMEDY":{
-        "a-frenchCoWorker":{
-          "title":"My French Co-Worker",
-          "description":"#comedy #shanghai #stand up",
-          "lang":"en",
-          "link":"https://www.youtube.com/watch?v=6Wj7xB-is7A"
-        },
-        "a-DashanStandUpBeijing":{
-          "title":"Dashan Stand-Up in Beijing",
-          "description":"#comedy #chinese #subtitles #stand up",
-          "lang":"cn",
-          "link":"https://www.youtube.com/watch?v=mnfHDV8Gl0A"
-        },
-        "a-ChineseNewYear":{
-          "title":"Chinese New Year",
-          "description":"#comedy #stand up",
-          "lang":"en",
-          "link":"https://www.youtube.com/watch?v=aa7ZHR5ZHpc"
-        },
-        "a-DashanLive":{
-          "title":"Dashan Live: 想入非非",
-          "description":"#comedy #chinese #subtitles #stand up",
-          "lang":"cn",
-          "link":"https://www.youtube.com/watch?v=Y9KLjy47eu0"
-        },
-        "a-AndyCurtain":{
-          "title":"Andy Curtain Kung Fu Komedy",
-          "description":"#comedy #stand up",
-          "lang":"en",
-          "link":"https://www.youtube.com/watch?v=NbxiKK_1MZw"
-        }
-
-      },
-      "MUSIC":{
-        "a-MingPalace":{
-          "title":"The Ming Palace (Tang Dynasty)",
-          "description":"#traditional",
-          "lang":"cn",
-          "link":"https://www.youtube.com/watch?annotation_id=annotation_3797695309&feature=iv&src_vid=SoSIpWbqS60&v=9qtwPKCbbik"
-        },
-        "a-mongolian1":{
-          "title":"乌兰托娅 套马杆(高清)",
-          "description":"#traditional #mongolian",
-          "lang":"en",
-          "link":"https://www.youtube.com/watch?v=pM2w6MzMsac"
-        },
-        "a-mongolian2":{
-          "title":"凤凰传奇 最炫民族风",
-          "description":"#modern #traditional",
-          "lang":"en",
-          "link":"https://www.youtube.com/watch?v=Ynypvs5s75Y"
-        },
-        "a-traditional1":{
-          "title":"降央卓玛 走天涯 高凊版（清晰）",
-          "description":"#traditional",
-          "lang":"en",
-          "link":"https://www.youtube.com/watch?v=L6OLTpRV_q8"
-        },
-        "a-traditional2":{
-          "title":"Wulan Tuoya - I want to Go to Xi Zang（Tibet）",
-          "description":"#tibet #traditional",
-          "lang":"en",
-          "link":"https://www.youtube.com/watch?v=ZaGUQq7C1jQ"
-        },
-        "a-Hero of China":{
-          "title":"Wong Fei Hung - Hero of China",
-          "description":"#Jet Li #martial arts #traditional",
-          "lang":"en",
-          "link":"https://www.youtube.com/watch?v=G5XYq7T2uQY"
-        },
-        "a-NanziHan":{
-          "title":"Jackie Chan - nánzǐ hàn (Mulan Song)",
-          "description":"#jackie chan #disney #martial arts",
-          "lang":"en",
-          "link":"https://www.youtube.com/watch?v=XLNgvNllU58"
-        },
-        "a-youCaiHua":{
-          "title":"You Cai Hua - Jackie Chan (Little Big Soldier Song)",
-          "description":"#jackie chan #lyrics in the comments",
-          "lang":"en",
-          "link":"https://www.youtube.com/watch?v=uhklgLmcl8k"
-        },
-        "a-genDequan":{
-          "title":"Gen Dequan - The Phoenix-Tail Bamboo in the Moonlight",
-          "description":"#dai #hulusi #traditional #no lyrics",
-          "lang":"en",
-          "link":"https://www.youtube.com/watch?v=Pq__l3woizM"
-        },
-        "a-mayDay":{
-          "title":"Mayday五月天 乾杯Cheers",
-          "description":"#mayday #modern",
-          "lang":"en",
-          "link":"https://www.youtube.com/watch?v=qX2GsMj7154"
-        },
-        "a-andyLau1":{
-          "title":"笨小孩 劉德華",
-          "description":"#Andy Lau #modern",
-          "lang":"en",
-          "link":"https://www.youtube.com/watch?v=NEOGrv0PK0Q"
-        },
-        "a-911-1":{
-          "title":"玖壹壹(Nine one one)-明天再擱來 (官方MV首播)",
-          "description":"#911 #modern #traditional characters #taiwan #taiwanese (mixed in)",
-          "lang":"en",
-          "link":"https://www.youtube.com/watch?v=D3cLm-AuMU0"
-        },
-        "a-911-2":{
-          "title":"玖壹壹(Nine one one)-嘻哈庄腳情 官方MV首播",
-          "description":"#911 #modern #traditional characters #taiwan #taiwanese (mixed in) #set to 1.25x speed",
-          "lang":"en",
-          "link":"https://www.youtube.com/watch?v=JvkqZrYJUe8"
-        },
-        "a-langLangAutumn":{
-          "title":"Lang Lang -﻿ Autumn Moon on a Calm Lake (平湖秋月)",
-          "description":"#piano #Lang Lang #traditional",
-          "lang":"en",
-          "link":"https://www.youtube.com/watch?v=gwZSkrCAJAY"
-        }
-      },
-      "TALKS":{},
-      "PODCASTS":{
-        "a-TheChinaHistoryPodcast":{
-          "title":"The China History Podcast",
-          "description":"#history #culture",
-          "lang":"en",
-          "link":"http://chinahistorypodcast.com/"
-        },
-        "a-SlowChinese":{
-          "title":"Slow Chinese",
-          "description":"#history #travel #modern China #translations on website",
-          "lang":"cn",
-          "link":"http://www.slow-chinese.com/"
-        },
-        "a-PopUpChinese":{
-          "title":"Popup Chinese",
-          "description":"#structured #discussions #course #bilingual #culture #explanantions",
-          "lang":"en",
-          "link":"http://www.popupchinese.com/"
-        }
-      },
-      "BOOKS":{
-        "a-TaoTeChing":{
-          "title":"Tao Te Ching",
-          "description":"#audiobook #Lao Tzu #Taoism",
-          "lang":"en",
-          "link":"https://www.youtube.com/watch?v=yc4zQunNBaM"
-        },
-        "a-SunTzu_de":{
-          "title":"Sun Tzu",
-          "description":"#audiobook #german #Sun Tzu #The Art of War",
-          "lang":"de",
-          "link":"https://www.youtube.com/watch?v=t9OnkDYR8sY"
-        },
-        "a-SunTzu_en":{
-          "title":"Sun Tzu",
-          "description":"#audiobook #english #Sun Tzu #The Art of War",
-          "lang":"en",
-          "link":"https://www.youtube.com/watch?v=31j43R77tOc"
-        },
-        "a-TaiPan":{
-          "title":"Tai-Pan",
-          "description":"#James Clavell #Asian Saga #2 #Hongkong #1840s",
-          "lang":"en",
-          "link":"https://www.goodreads.com/book/show/42933.Tai_Pan"
-        },
-        "a-OnChina":{
-          "title":"On China",
-          "description":"#Henry Kissinger #history #politics #culture",
-          "lang":"en",
-          "link":"https://www.goodreads.com/book/show/9328314-on-china?from_search=true&search_version=service"
-        },
-        "a-Daomu":{
-          "title":"Dàomù bǐjì",
-          "description":"#novel #online #tomb raider #盗墓笔记 #chinese",
-          "lang":"en",
-          "link":"http://www.idaomu.com/"
-        },
-        "a-wuxia":{
-          "title":"wuxiaworld",
-          "description":"#novels #online #translation #various",
-          "lang":"en",
-          "link":"http://www.wuxiaworld.com/"
-        },
-        "a-":{
-          "title":"",
-          "description":"",
-          "lang":"en",
-          "link":""
-        }
-      },
-      "CULTUREART":{},
-      "BLOGS":{
-        "a-learningStrategies":{
-          "title":"Language learning Strategies",
-          "description":"#strategies",
-          "lang":"en",
-          "link":"http://www.fluentin3months.com/language-learning-strategies/"
-        },
-        "a-grammarRules":{
-          "title":"Grammar Rules",
-          "description":"#grammar",
-          "lang":"en",
-          "link":"https://www.chineseboost.com/grammar/chinese-grammar-rules/"
-        },
-        "a-allsetlearning-grammar":{
-          "title":"ChineseGrammarWiki",
-          "description":"#collection #grammar",
-          "lang":"en",
-          "link":"https://resources.allsetlearning.com/chinese/grammar/"
-        },
-        "a-r/China":{
-          "title":"r/China",
-          "description":"#reddit",
-          "lang":"en",
-          "link":"https://www.reddit.com/r/China/"
-        },
-        "a-r/Chinese":{
-          "title":"r/Chinese",
-          "description":"#reddit",
-          "lang":"en",
-          "link":"https://www.reddit.com/r/Chinese/"
-        },
-        "a-r/ChineseLanguage":{
-          "title":"r/ChineseLanguage",
-          "description":"#reddit",
-          "lang":"en",
-          "link":"https://www.reddit.com/r/ChineseLanguage"
-        }
-      },
-      "MARTIALARTS":{
-        "a-WingChunTaiChi":{
-          "title":"Wing Chun Tai Chi JKD - Master Wong",
-          "description":"#martial arts #tai chi #self-defense #basics #advanced",
-          "lang":"en",
-          "link":"https://www.youtube.com/channel/UC2NH07Y5tx_PQvqaQGzxKxQ"
-        }
-      },
-      "TRAVEL":{},
-      "PRODUCTS":{},
-      "PHILOSOPHY":{
-        "a-alanAsia":{
-          "title":"Alan Watts - Philosophies Of Asia - Intro to Buddhism [1 Of 2]",
-          "description":"#Alan Watts #buddhism",
-          "lang":"en",
-          "link":"https://www.youtube.com/watch?v=g09Xq0YmzdA"
-        },
-        "a-alanZen":{
-          "title":"Alan Watts: Zen",
-          "description":"#Alan Watts #Zen",
-          "lang":"en",
-          "link":"https://www.youtube.com/watch?v=Qy4VWA2jsQA"
-        },
-        "a-alanLaoTzu":{
-          "title":"Alan Watts - Lao Tzu's Tao Te Ching",
-          "description":"#Alan Watts #daoism",
-          "lang":"en",
-          "link":"https://www.youtube.com/watch?v=NEIuPDvJMss"
-        },
-        "a-alanZenTales":{
-          "title":"Alan Watts - Eastern & Western Zen: Zen Tales and Legends",
-          "description":"#Alan Watts #Zen #legends",
-          "lang":"en",
-          "link":"https://www.youtube.com/watch?v=FF-wKPKSjCc"
-        },
-        "a-alanTaoist":{
-          "title":"Alan Watts - The Taoist Way",
-          "description":"#Alan Watts #daoism",
-          "lang":"en",
-          "link":"https://www.youtube.com/watch?v=Iv9zocKASsM"
-        }
-      },
-      "OTHER":{
-        "a-TravelInChinese":{
-          "title":"Travel in Chinese",
-          "description":"#language course #Dashan #100 episodes #high quality",
-          "lang":"en",
-          "link":"http://english.cntv.cn/program/learnchinese/travelinchinese/index.shtml"
-        },
-        "a-GrowingUpWithChinese":{
-          "title":"Growing up with Chinese",
-          "description":"#language course #100 episodes #high quality",
-          "lang":"en",
-          "link":"http://english.cntv.cn/program/learnchinese/growingwithchinese/index.shtml"
-        }
-
-      }
+      "movies": "Filme",
+      "comedy": "Comedy",
+      "music": "Music",
+      "talks": "Talks",
+      "podcasts": "Podcasts",
+      "books": "Books",
+      "cultureArt": "Culture & Art",
+      "blogs": "Blogs",
+      "martialArts": "Martial Arts",
+      "travel": "Travel",
+      "products": "Products",
+      "philosophy": "philosophy",
+      "other": "Other Resources",
     }
 
 

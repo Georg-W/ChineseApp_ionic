@@ -101,7 +101,7 @@
         }
       });
 
-    $urlRouterProvider.otherwise('#/app/home');
+    $urlRouterProvider.otherwise('/app/home');
 
     $translateProvider
       .preferredLanguage('en')
