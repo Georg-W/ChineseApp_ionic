@@ -2271,7 +2271,7 @@
 
 
 
-    "7-01": {
+    {
       "character": "家",
       "pinyin": "jiā",
       "translation_d": "Familie, ZEW für Unternehmen",
@@ -2282,7 +2282,7 @@
       "chapter": 7,
       "tone": 1
     },
-    "7-02": {
+    {
       "character": "父亲",
       "pinyin": "fùqin",
       "translation_d": "Vater",
@@ -2293,7 +2293,7 @@
       "chapter": 7,
       "tone": 4
     },
-    "7-03": {
+    {
       "character": "母亲",
       "pinyin": "mŭqin",
       "translation_d": "Mutter",
@@ -2304,7 +2304,7 @@
       "chapter": 7,
       "tone": 3
     },
-    "7-04": {
+    {
       "character": "丈夫",
       "pinyin": "zhàngfu",
       "translation_d": "Ehemann",
@@ -2315,7 +2315,7 @@
       "chapter": 7,
       "tone": 4
     },
-    "7-05": {
+    {
       "character": "妻子",
       "pinyin": "qīzi",
       "translation_d": "Ehefrau",
@@ -2326,7 +2326,7 @@
       "chapter": 7,
       "tone": 1
     },
-    "7-06": {
+    {
       "character": "经理",
       "pinyin": "jīngli",
       "translation_d": "Manager",
@@ -2337,7 +2337,7 @@
       "chapter": 7,
       "tone": 1
     },
-    "7-07": {
+    {
       "character": "女儿",
       "pinyin": "nǚ’er",
       "translation_d": "Tochter",
@@ -2348,7 +2348,7 @@
       "chapter": 7,
       "tone": 3
     },
-    "7-08": {
+    {
       "character": "儿子",
       "pinyin": "érzi",
       "translation_d": "Sohn",
@@ -2359,7 +2359,7 @@
       "chapter": 7,
       "tone": 0
     },
-    "7-09": {
+    {
       "character": "哥哥",
       "pinyin": "gēge",
       "translation_d": "älterer Bruder",
@@ -2370,7 +2370,7 @@
       "chapter": 7,
       "tone": 1
     },
-    "7-10": {
+    {
       "character": "弟弟",
       "pinyin": "dìdi",
       "translation_d": "jüngerer Bruder",
@@ -2381,7 +2381,7 @@
       "chapter": 7,
       "tone": 0
     },
-    "7-11": {
+    {
       "character": "姐姐",
       "pinyin": "jiějie",
       "translation_d": "ältere Schwester",
@@ -2392,7 +2392,7 @@
       "chapter": 7,
       "tone": 3
     },
-    "7-12": {
+    {
       "character": "妹妹",
       "pinyin": "mèimei",
       "translation_d": "jüngere Schwester",
@@ -2403,7 +2403,7 @@
       "chapter": 7,
       "tone": 4
     },
-    "7-13": {
+    {
       "character": "口",
       "pinyin": "kŏu",
       "translation_d": "ZEW für Familienmitglieder",
@@ -2414,7 +2414,7 @@
       "chapter": 7,
       "tone": 3
     },
-    "7-14": {
+    {
       "character": "已经",
       "pinyin": "yĭjīng",
       "translation_d": "schon, bereits",
@@ -2425,7 +2425,7 @@
       "chapter": 7,
       "tone": 0
     },
-    "7-15": {
+    {
       "character": "退休",
       "pinyin": "tuìxiū",
       "translation_d": "in Rente gehen",
@@ -2436,7 +2436,7 @@
       "chapter": 7,
       "tone": 0
     },
-    "7-16": {
+    {
       "character": "大",
       "pinyin": "dà",
       "translation_d": "groß",
@@ -2447,7 +2447,7 @@
       "chapter": 7,
       "tone": 4
     },
-    "7-17": {
+    {
       "character": "小",
       "pinyin": "xiǎo",
       "translation_d": "klein",
@@ -2458,7 +2458,7 @@
       "chapter": 7,
       "tone": 3
     },
-    "7-18": {
+    {
       "character": "结婚",
       "pinyin": "jié hūn",
       "translation_d": "heiraten",
@@ -2469,7 +2469,7 @@
       "chapter": 7,
       "tone": 0
     },
-    "7-19": {
+    {
       "character": "孩子",
       "pinyin": "háizi",
       "translation_d": "Kind",
@@ -2480,7 +2480,7 @@
       "chapter": 7,
       "tone": 2
     },
-    "7-20": {
+    {
       "character": "只",
       "pinyin": "zhī",
       "translation_d": "ZEW für viele Tiere",
@@ -2491,7 +2491,7 @@
       "chapter": 7,
       "tone": 1
     },
-    "7-21": {
+    {
       "character": "只",
       "pinyin": "zhĭ",
       "translation_d": "nur",
@@ -2502,7 +2502,7 @@
       "chapter": 7,
       "tone": 3
     },
-    "7-22": {
+    {
       "character": "狗",
       "pinyin": "gŏu",
       "translation_d": "Hund",
@@ -2513,7 +2513,7 @@
       "chapter": 7,
       "tone": 3
     },
-    "7-23": {
+    {
       "character": "猫",
       "pinyin": "māo",
       "translation_d": "Katze",
@@ -2524,7 +2524,7 @@
       "chapter": 7,
       "tone": 1
     },
-    "7-24": {
+    {
       "character": "它",
       "pinyin": "tā",
       "translation_d": "es",
@@ -2535,7 +2535,7 @@
       "chapter": 7,
       "tone": 1
     },
-    "7-25": {
+    {
       "character": "都",
       "pinyin": "dōu",
       "translation_d": "alle",
@@ -2546,7 +2546,7 @@
       "chapter": 7,
       "tone": 1
     },
-    "7-26": {
+    {
       "character": "常常",
       "pinyin": "chángcháng",
       "translation_d": "oft",
@@ -2557,7 +2557,7 @@
       "chapter": 7,
       "tone": 2
     },
-    "7-27": {
+    {
       "character": "玩（儿）",
       "pinyin": "wán(r)",
       "translation_d": "spielen, sich unterhalten",
@@ -2568,7 +2568,7 @@
       "chapter": 7,
       "tone": 2
     },
-    "7-28": {
+    {
       "character": "爱",
       "pinyin": "ài",
       "translation_d": "Liebe, lieben",
@@ -2579,7 +2579,7 @@
       "chapter": 7,
       "tone": 4
     },
-    "7-29": {
+    {
       "character": "想",
       "pinyin": "xiǎng",
       "translation_d": "wollen, vermissen",
@@ -2590,7 +2590,7 @@
       "chapter": 7,
       "tone": 3
     },
-    "7-30": {
+    {
       "character": "爸爸",
       "pinyin": "bàba",
       "translation_d": "Papa",
@@ -2601,7 +2601,7 @@
       "chapter": 7,
       "tone": 4
     },
-    "7-31": {
+    {
       "character": "妈妈",
       "pinyin": "māma",
       "translation_d": "Mama",
@@ -2612,7 +2612,7 @@
       "chapter": 7,
       "tone": 1
     },
-    "7-32": {
+    {
       "character": "女",
       "pinyin": "nǚ",
       "translation_d": "weiblich",
@@ -2623,7 +2623,7 @@
       "chapter": 7,
       "tone": 3
     },
-    "7-33": {
+    {
       "character": "做",
       "pinyin": "zuò",
       "translation_d": "machen, tun, produzieren",
@@ -2634,7 +2634,7 @@
       "chapter": 7,
       "tone": 4
     },
-    "7-34": {
+    {
       "character": "今年",
       "pinyin": "jīnnián",
       "translation_d": "dieses Jahr",
@@ -2645,7 +2645,7 @@
       "chapter": 7,
       "tone": 0
     },
-    "7-35": {
+    {
       "character": "多大",
       "pinyin": "duō dà",
       "translation_d": "wie alt",
@@ -2656,7 +2656,7 @@
       "chapter": 7,
       "tone": 0
     },
-    "7-36": {
+    {
       "character": "岁",
       "pinyin": "suì",
       "translation_d": "Lebensjahr, ZEW Alter",
@@ -2667,7 +2667,7 @@
       "chapter": 7,
       "tone": 4
     },
-    "7-37": {
+    {
       "character": "兄弟姐妹",
       "pinyin": "xiōngdìjiěmèi",
       "translation_d": "Geschwister",
@@ -2678,7 +2678,7 @@
       "chapter": 7,
       "tone": 0
     },
-    "7-38": {
+    {
       "character": "学校",
       "pinyin": "xuéxiào",
       "translation_d": "Schule",
@@ -2689,7 +2689,7 @@
       "chapter": 7,
       "tone": 0
     },
-    "7-39": {
+    {
       "character": "生活",
       "pinyin": "shēnghuó",
       "translation_d": "leben, Leben",
@@ -2700,7 +2700,7 @@
       "chapter": 7,
       "tone": 0
     },
-    "7-40": {
+    {
       "character": "得",
       "pinyin": "de",
       "translation_d": "Partikel für Art und Weise",
@@ -2711,7 +2711,7 @@
       "chapter": 7,
       "tone": 0
     },
-    "7-41": {
+    {
       "character": "真",
       "pinyin": "zhēn",
       "translation_d": "wirklich",
@@ -2722,7 +2722,7 @@
       "chapter": 7,
       "tone": 1
     },
-    "7-42": {
+    {
       "character": "向",
       "pinyin": "xiàng",
       "translation_d": "zu, nach, in Richtung",
@@ -2733,7 +2733,7 @@
       "chapter": 7,
       "tone": 4
     },
-    "7-43": {
+    {
       "character": "问好",
       "pinyin": "wèn hǎo",
       "translation_d": "grüßen",
@@ -2744,7 +2744,7 @@
       "chapter": 7,
       "tone": 0
     },
-    "8-01": {
+    {
       "character": "酒吧",
       "pinyin": "jiǔbā",
       "translation_d": "Bar",
@@ -2755,7 +2755,7 @@
       "chapter": 8,
       "tone": 0
     },
-    "8-02": {
+    {
       "character": "离",
       "pinyin": "lí",
       "translation_d": "(Präposition) entfernt (von...) sein",
@@ -2766,7 +2766,7 @@
       "chapter": 8,
       "tone": 2
     },
-    "8-03": {
+    {
       "character": "远",
       "pinyin": "yuǎn",
       "translation_d": "weit entfernt",
@@ -2777,7 +2777,7 @@
       "chapter": 8,
       "tone": 3
     },
-    "8-04": {
+    {
       "character": "车/汽车",
       "pinyin": "chē / qìchē",
       "translation_d": "Fahrzeug, Kraftfahrzeug",
@@ -2788,7 +2788,7 @@
       "chapter": 8,
       "tone": 0
     },
-    "8-05": {
+    {
       "character": "开",
       "pinyin": "kāi",
       "translation_d": "ein Fahrzeug steuern, öffnen",
@@ -2799,7 +2799,7 @@
       "chapter": 8,
       "tone": 0
     },
-    "8-06": {
+    {
       "character": "或者",
       "pinyin": "huòzhě",
       "translation_d": "oder (in Aussagesätzen)",
@@ -2810,7 +2810,7 @@
       "chapter": 8,
       "tone": 0
     },
-    "8-07": {
+    {
       "character": "骑",
       "pinyin": "qí",
       "translation_d": "reiten, (Fahrrad-) fahren",
@@ -2821,7 +2821,7 @@
       "chapter": 8,
       "tone": 2
     },
-    "8-08": {
+    {
       "character": "自行车",
       "pinyin": "zìxíngchē",
       "translation_d": "Fahrrad",
@@ -2832,7 +2832,7 @@
       "chapter": 8,
       "tone": 0
     },
-    "8-09": {
+    {
       "character": "公交车",
       "pinyin": "gōngjiāochē",
       "translation_d": "Linienbus",
@@ -2843,7 +2843,7 @@
       "chapter": 8,
       "tone": 1
     },
-    "8-10": {
+    {
       "character": "多",
       "pinyin": "duō",
       "translation_d": "viel",
@@ -2854,7 +2854,7 @@
       "chapter": 8,
       "tone": 1
     },
-    "8-11": {
+    {
       "character": "太多了",
       "pinyin": "tài duō le",
       "translation_d": "zu viel, sehr",
@@ -2865,7 +2865,7 @@
       "chapter": 8,
       "tone": 0
     },
-    "8-12": {
+    {
       "character": "那么",
       "pinyin": "nàme",
       "translation_d": "dann, so, also",
@@ -2876,7 +2876,7 @@
       "chapter": 8,
       "tone": 4
     },
-    "8-13": {
+    {
       "character": "走",
       "pinyin": "zǒu",
       "translation_d": "(weg)gehen",
@@ -2887,7 +2887,7 @@
       "chapter": 8,
       "tone": 3
     },
-    "8-14": {
+    {
       "character": "走路",
       "pinyin": "zǒu lù",
       "translation_d": "zu Fuß gehen",
@@ -2898,7 +2898,7 @@
       "chapter": 8,
       "tone": 0
     },
-    "8-15": {
+    {
       "character": "出租车",
       "pinyin": "chūzūchē",
       "translation_d": "Taxi",
@@ -2909,7 +2909,7 @@
       "chapter": 8,
       "tone": 1
     },
-    "8-16": {
+    {
       "character": "打的",
       "pinyin": "dǎ dī",
       "translation_d": "Taxi nehmen",
@@ -2920,7 +2920,7 @@
       "chapter": 8,
       "tone": 0
     },
-    "8-17": {
+    {
       "character": "回",
       "pinyin": "huí",
       "translation_d": "zurückkehren",
@@ -2931,7 +2931,7 @@
       "chapter": 8,
       "tone": 2
     },
-    "8-18": {
+    {
       "character": "",
       "pinyin": "",
       "translation_d": "",
@@ -2942,7 +2942,7 @@
       "chapter": 8,
       "tone": 0
     },
-    "8-19": {
+    {
       "character": "",
       "pinyin": "",
       "translation_d": "",
@@ -2953,7 +2953,7 @@
       "chapter": 8,
       "tone": 0
     },
-    "8-20": {
+    {
       "character": "",
       "pinyin": "",
       "translation_d": "",
@@ -2964,7 +2964,7 @@
       "chapter": 8,
       "tone": 0
     },
-    "8-21": {
+    {
       "character": "",
       "pinyin": "",
       "translation_d": "",
@@ -2975,7 +2975,7 @@
       "chapter": 8,
       "tone": 0
     },
-    "8-22": {
+    {
       "character": "",
       "pinyin": "",
       "translation_d": "",
@@ -2986,7 +2986,7 @@
       "chapter": 8,
       "tone": 0
     },
-    "8-23": {
+    {
       "character": "",
       "pinyin": "",
       "translation_d": "",
@@ -2997,7 +2997,7 @@
       "chapter": 8,
       "tone": 0
     },
-    "8-24": {
+    {
       "character": "",
       "pinyin": "",
       "translation_d": "",
@@ -3008,7 +3008,7 @@
       "chapter": 8,
       "tone": 0
     },
-    "8-25": {
+    {
       "character": "",
       "pinyin": "",
       "translation_d": "",
@@ -3019,7 +3019,7 @@
       "chapter": 8,
       "tone": 0
     },
-    "8-26": {
+    {
       "character": "",
       "pinyin": "",
       "translation_d": "",
@@ -3030,7 +3030,7 @@
       "chapter": 8,
       "tone": 0
     },
-    "8-27": {
+    {
       "character": "",
       "pinyin": "",
       "translation_d": "",
@@ -3041,7 +3041,7 @@
       "chapter": 8,
       "tone": 0
     },
-    "8-28": {
+    {
       "character": "",
       "pinyin": "",
       "translation_d": "",
@@ -3052,7 +3052,7 @@
       "chapter": 8,
       "tone": 0
     },
-    "8-29": {
+    {
       "character": "",
       "pinyin": "",
       "translation_d": "",

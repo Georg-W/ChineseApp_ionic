@@ -9,7 +9,7 @@
 
 
             var urlBase_Links = 'Links.json';
-            var urlBase_Cards = 'Flashcardstest.json';
+            var urlBase_Cards = 'Flashcards.json';
             //var urlBase_Links = 'immersion/Immersion.json';
 
             var dataFactory = {};

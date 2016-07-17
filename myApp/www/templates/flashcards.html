@@ -22,7 +22,7 @@
             </label>
             <div class="spacer" style="width: 300px; height: 19px;"></div>
             <div>
-            <ion-item id="flashcards-list-item7" class="  " ng-repeat="Card in Cards | filter  : chapterSelection | filter : search : ignoreTones | orderBy: sortField ">
+            <ion-item id="flashcards-list-item7" class="  " ng-repeat="Card in Cards | filter  : {chapter : chapterSelection} | filter : search : ignoreTones | orderBy: sortField ">
               <div>{{Card.character}}</div>
               <div>{{Card.pinyin}}</div>
               <div ng-show="language == 'de'">{{Card.translation_d}}</div>

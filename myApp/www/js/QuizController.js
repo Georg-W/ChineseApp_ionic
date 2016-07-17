@@ -33,7 +33,7 @@
                             var index=0;
                             var count = -1;  // for cardArray // Of by one Issue with Chapter Selection
                             var cardArray;
-                            var chapter = "7";
+                            var chapter = "All";
                             var chapterChanged = false; //changeChapter
                             var tone; ////cardTone()/////
                             var color; ////cardTone()////
