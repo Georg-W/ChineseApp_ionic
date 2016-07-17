@@ -7,7 +7,7 @@
 
     angular
         .module('myApp.controllers')
-        .controller('flashCardController',['dataservice', 'languageservice','$scope', function(dataservice,languageservice,$scope){
+        .controller('flashCardController',['$scope', '$rootScope','dataservice', 'languageservice', function($scope, $rootScope, dataservice,languageservice){
 
             $scope.Cards = [];
 
@@ -17,10 +17,11 @@
 
             $scope.language ="en";
 
-            $scope.$on('changeLanguage',function(lang){
-                $scope.language = lang;
-              console.log("passt");
-            });
+          $rootScope.$on('languageGotChanged',function(msg,lang){
+            console.log('wuhu');
+            $scope.language = lang;
+            console.log("language switched");
+          });
 
             $scope.chapterSelection = "";
 
