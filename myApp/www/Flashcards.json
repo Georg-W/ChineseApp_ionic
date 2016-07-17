@@ -1,6 +1,5 @@
-﻿{
-  "Cards": {
-    "1-01": {
+﻿[
+    {
       "character": "你",
       "pinyin": "nǐ",
       "translation_d": "du",
@@ -11,7 +10,7 @@
       "chapter": 1,
       "tone": 3
     },
-    "1-02": {
+    {
       "character": "您",
       "pinyin": "nǐn",
       "translation_d": "Sie",
@@ -22,7 +21,7 @@
       "chapter": 1,
       "tone": 3
     },
-    "1-03": {
+    {
       "character": "好",
       "pinyin": "hǎo",
       "translation_d": "gut",
@@ -33,7 +32,7 @@
       "chapter": 1,
       "tone": 3
     },
-    "1-04": {
+    {
       "character": "吗",
       "pinyin": "ma",
       "translation_d": "Fragepartikel (Ja - Nein Frage)",
@@ -44,7 +43,7 @@
       "chapter": 1,
       "tone": 0
     },
-    "1-05": {
+    {
       "character": "我",
       "pinyin": "wǒ",
       "translation_d": "ich",
@@ -55,7 +54,7 @@
       "chapter": 1,
       "tone": 3
     },
-    "1-06": {
+    {
       "character": "很",
       "pinyin": "hěn",
       "translation_d": "sehr",
@@ -66,7 +65,7 @@
       "chapter": 1,
       "tone": 3
     },
-    "1-07": {
+    {
       "character": "呢",
       "pinyin": "ne",
       "translation_d": "Fragepartikel (und du?)",
@@ -77,7 +76,7 @@
       "chapter": 1,
       "tone": 0
     },
-    "1-08": {
+    {
       "character": "马马虎虎",
       "pinyin": "mǎmǎhūhū",
       "translation_d": "es geht so",
@@ -88,7 +87,7 @@
       "chapter": 1,
       "tone": 0
     },
-    "1-09": {
+    {
       "character": "再见",
       "pinyin": "zàijiàn",
       "translation_d": "Auf Wiedersehen",
@@ -99,7 +98,7 @@
       "chapter": 1,
       "tone": 4
     },
-    "1-10": {
+    {
       "character": "忙",
       "pinyin": "máng",
       "translation_d": "beschäftigt",
@@ -110,7 +109,7 @@
       "chapter": 1,
       "tone": 2
     },
-    "1-11": {
+    {
       "character": "累",
       "pinyin": "lèi",
       "translation_d": "erschöpft",
@@ -121,7 +120,7 @@
       "chapter": 1,
       "tone": 4
     },
-    "1-12": {
+    {
       "character": "饿",
       "pinyin": "è",
       "translation_d": "hungrig",
@@ -132,7 +131,7 @@
       "chapter": 1,
       "tone": 4
     },
-    "1-13": {
+    {
       "character": "渴",
       "pinyin": "kě",
       "translation_d": "durstig",
@@ -143,7 +142,7 @@
       "chapter": 1,
       "tone": 3
     },
-    "1-14": {
+    {
       "character": "不",
       "pinyin": "bù",
       "translation_d": "nicht, nein",
@@ -154,7 +153,7 @@
       "chapter": 1,
       "tone": 4
     },
-    "2-01": {
+    {
       "character": "请问",
       "pinyin": "qǐng wèn",
       "translation_d": "darf ich fragen",
@@ -165,7 +164,7 @@
       "chapter": 2,
       "tone": 0
     },
-    "2-02": {
+    {
       "character": "这",
       "pinyin": "zhè",
       "translation_d": "diese/-r/-s",
@@ -176,7 +175,7 @@
       "chapter": 2,
       "tone": 4
     },
-    "2-03": {
+    {
       "character": "名片",
       "pinyin": "míngpiàn",
       "translation_d": "Visitenkarte",
@@ -187,7 +186,7 @@
       "chapter": 2,
       "tone": 0
     },
-    "2-04": {
+    {
       "character": "谢谢",
       "pinyin": "xièxie",
       "translation_d": "Danke",
@@ -198,7 +197,7 @@
       "chapter": 2,
       "tone": 4
     },
-    "2-05": {
+    {
       "character": "叫",
       "pinyin": "jiào",
       "translation_d": "heißen, nennen",
@@ -209,7 +208,7 @@
       "chapter": 2,
       "tone": 4
     },
-    "2-06": {
+    {
       "character": "什么",
       "pinyin": "shénme",
       "translation_d": "was",
@@ -220,7 +219,7 @@
       "chapter": 2,
       "tone": 2
     },
-    "2-07": {
+    {
       "character": "名字",
       "pinyin": "míngzi",
       "translation_d": "Name",
@@ -231,7 +230,7 @@
       "chapter": 2,
       "tone": 2
     },
-    "2-08": {
+    {
       "character": "姓",
       "pinyin": "xìng",
       "translation_d": "heißen mit Nachnamen",
@@ -242,7 +241,7 @@
       "chapter": 2,
       "tone": 4
     },
-    "2-09": {
+    {
       "character": "贵",
       "pinyin": "guì",
       "translation_d": "teuer, wertvoll",
@@ -253,7 +252,7 @@
       "chapter": 2,
       "tone": 4
     },
-    "2-10": {
+    {
       "character": "是",
       "pinyin": "shì",
       "translation_d": "sein",
@@ -264,7 +263,7 @@
       "chapter": 2,
       "tone": 4
     },
-    "2-11": {
+    {
       "character": "老师",
       "pinyin": "lǎoshī",
       "translation_d": "Lehrer",
@@ -275,7 +274,7 @@
       "chapter": 2,
       "tone": 0
     },
-    "2-12": {
+    {
       "character": "工程师",
       "pinyin": "gōngchéngshī",
       "translation_d": "Ingenieur",
@@ -286,7 +285,7 @@
       "chapter": 2,
       "tone": 0
     },
-    "2-13": {
+    {
       "character": "她",
       "pinyin": "tā",
       "translation_d": "sie",
@@ -297,7 +296,7 @@
       "chapter": 2,
       "tone": 1
     },
-    "2-14": {
+    {
       "character": "们",
       "pinyin": "-men",
       "translation_d": "Pluralendung Personen",
@@ -308,7 +307,7 @@
       "chapter": 2,
       "tone": 0
     },
-    "2-15": {
+    {
       "character": "你们",
       "pinyin": "nǐmen",
       "translation_d": "ihr",
@@ -319,7 +318,7 @@
       "chapter": 2,
       "tone": 3
     },
-    "2-16": {
+    {
       "character": "秘书",
       "pinyin": "mìshū",
       "translation_d": "Sekretär(-in)",
@@ -330,7 +329,7 @@
       "chapter": 2,
       "tone": 0
     },
-    "2-17": {
+    {
       "character": "学生",
       "pinyin": "xuésheng",
       "translation_d": "Schüler",
@@ -341,7 +340,7 @@
       "chapter": 2,
       "tone": 2
     },
-    "2-18": {
+    {
       "character": "介绍",
       "pinyin": "jièshào",
       "translation_d": "vorstellen, empfehlen",
@@ -352,7 +351,7 @@
       "chapter": 2,
       "tone": 4
     },
-    "2-19": {
+    {
       "character": "一下",
       "pinyin": "yíxià",
       "translation_d": "mal kurz",
@@ -363,7 +362,7 @@
       "chapter": 2,
       "tone": 0
     },
-    "2-20": {
+    {
       "character": "他",
       "pinyin": "tā",
       "translation_d": "er",
@@ -374,7 +373,7 @@
       "chapter": 2,
       "tone": 1
     },
-    "2-21": {
+    {
       "character": "的",
       "pinyin": "de",
       "translation_d": "Partikel (sein, mein)",
@@ -385,7 +384,7 @@
       "chapter": 2,
       "tone": 0
     },
-    "2-22": {
+    {
       "character": "朋友",
       "pinyin": "péngyou",
       "translation_d": "Freund",
@@ -396,7 +395,7 @@
       "chapter": 2,
       "tone": 2
     },
-    "2-23": {
+    {
       "character": "认识",
       "pinyin": "rènshi",
       "translation_d": "kennen(lernen)",
@@ -407,7 +406,7 @@
       "chapter": 2,
       "tone": 4
     },
-    "2-24": {
+    {
       "character": "高兴",
       "pinyin": "gāoxìng",
       "translation_d": "sich freuen, freudig",
@@ -418,7 +417,7 @@
       "chapter": 2,
       "tone": 0
     },
-    "2-25": {
+    {
       "character": "我们",
       "pinyin": "wǒmen",
       "translation_d": "wir",
@@ -429,7 +428,7 @@
       "chapter": 2,
       "tone": 3
     },
-    "2-26": {
+    {
       "character": "也",
       "pinyin": "yě",
       "translation_d": "auch",
@@ -440,7 +439,7 @@
       "chapter": 2,
       "tone": 3
     },
-    "2-27": {
+    {
       "character": "先生",
       "pinyin": "xiānsheng",
       "translation_d": "Herr",
@@ -451,7 +450,7 @@
       "chapter": 2,
       "tone": 1
     },
-    "3-01": {
+    {
       "character": "英国",
       "pinyin": "Yīngguó",
       "translation_d": "England",
@@ -462,7 +461,7 @@
       "chapter": 3,
       "tone": 0
     },
-    "3-02": {
+    {
       "character": "和",
       "pinyin": "hé",
       "translation_d": "und",
@@ -473,7 +472,7 @@
       "chapter": 3,
       "tone": 2
     },
-    "3-03": {
+    {
       "character": "法国",
       "pinyin": "Fǎguó",
       "translation_d": "Frankreich",
@@ -484,7 +483,7 @@
       "chapter": 3,
       "tone": 0
     },
-    "3-04": {
+    {
       "character": "那",
       "pinyin": "nà",
       "translation_d": "jenes,  das (dort)",
@@ -495,7 +494,7 @@
       "chapter": 3,
       "tone": 4
     },
-    "3-05": {
+    {
       "character": "西班牙",
       "pinyin": "Xībānyá",
       "translation_d": "Spanien",
@@ -506,7 +505,7 @@
       "chapter": 3,
       "tone": 0
     },
-    "3-06": {
+    {
       "character": "意大利",
       "pinyin": "Yìdàlì",
       "translation_d": "Italien",
@@ -517,7 +516,7 @@
       "chapter": 3,
       "tone": 4
     },
-    "3-07": {
+    {
       "character": "中国",
       "pinyin": "Zhōngguó",
       "translation_d": "China",
@@ -528,7 +527,7 @@
       "chapter": 3,
       "tone": 0
     },
-    "3-08": {
+    {
       "character": "在",
       "pinyin": "zài",
       "translation_d": "sich befinden; in, bei an, auf",
@@ -539,7 +538,7 @@
       "chapter": 3,
       "tone": 4
     },
-    "3-09": {
+    {
       "character": "这儿",
       "pinyin": "zhèr",
       "translation_d": "hier",
@@ -550,7 +549,7 @@
       "chapter": 3,
       "tone": 4
     },
-    "3-10": {
+    {
       "character": "德国",
       "pinyin": "Déguó",
       "translation_d": "Deutschland",
@@ -561,7 +560,7 @@
       "chapter": 3,
       "tone": 2
     },
-    "3-11": {
+    {
       "character": "那儿",
       "pinyin": "nàr",
       "translation_d": "dort",
@@ -572,7 +571,7 @@
       "chapter": 3,
       "tone": 4
     },
-    "3-12": {
+    {
       "character": "美国",
       "pinyin": "Měiguó",
       "translation_d": "Amerika, USA",
@@ -583,7 +582,7 @@
       "chapter": 3,
       "tone": 0
     },
-    "3-13": {
+    {
       "character": "日本",
       "pinyin": "Rìběn",
       "translation_d": "Japan",
@@ -594,7 +593,7 @@
       "chapter": 3,
       "tone": 0
     },
-    "3-14": {
+    {
       "character": "哪儿",
       "pinyin": "nǎr",
       "translation_d": "wo",
@@ -605,7 +604,7 @@
       "chapter": 3,
       "tone": 3
     },
-    "3-15": {
+    {
       "character": "奥地利",
       "pinyin": "Àodìlì",
       "translation_d": "Österreich",
@@ -616,7 +615,7 @@
       "chapter": 3,
       "tone": 4
     },
-    "3-16": {
+    {
       "character": "瑞士",
       "pinyin": "Ruìshì",
       "translation_d": "Schweiz",
@@ -627,7 +626,7 @@
       "chapter": 3,
       "tone": 4
     },
-    "3-17": {
+    {
       "character": "谁",
       "pinyin": "shéi",
       "translation_d": "wer",
@@ -638,7 +637,7 @@
       "chapter": 3,
       "tone": 2
     },
-    "3-18": {
+    {
       "character": "同学",
       "pinyin": "tóngxué",
       "translation_d": "Mitschüler",
@@ -649,7 +648,7 @@
       "chapter": 3,
       "tone": 2
     },
-    "3-19": {
+    {
       "character": "哪",
       "pinyin": "nǎ",
       "translation_d": "welche/r/s",
@@ -660,7 +659,7 @@
       "chapter": 3,
       "tone": 3
     },
-    "3-20": {
+    {
       "character": "国",
       "pinyin": "guó",
       "translation_d": "Land",
@@ -671,7 +670,7 @@
       "chapter": 3,
       "tone": 2
     },
-    "3-21": {
+    {
       "character": "人",
       "pinyin": "rén",
       "translation_d": "Mensch",
@@ -682,7 +681,7 @@
       "chapter": 3,
       "tone": 2
     },
-    "3-22": {
+    {
       "character": "德国人",
       "pinyin": "Déguórén",
       "translation_d": "Deutsche/-r",
@@ -693,7 +692,7 @@
       "chapter": 3,
       "tone": 2
     },
-    "3-23": {
+    {
       "character": "会",
       "pinyin": "huì",
       "translation_d": "können",
@@ -704,7 +703,7 @@
       "chapter": 3,
       "tone": 4
     },
-    "3-24": {
+    {
       "character": "说",
       "pinyin": "shuō",
       "translation_d": "sprechen",
@@ -715,7 +714,7 @@
       "chapter": 3,
       "tone": 1
     },
-    "3-25": {
+    {
       "character": "汉语",
       "pinyin": "Hànyǔ",
       "translation_d": "chinesische Sprache",
@@ -726,7 +725,7 @@
       "chapter": 3,
       "tone": 0
     },
-    "3-26": {
+    {
       "character": "一点儿",
       "pinyin": "yìdiǎnr",
       "translation_d": "ein bisschen",
@@ -737,7 +736,7 @@
       "chapter": 3,
       "tone": 0
     },
-    "3-27": {
+    {
       "character": "日语",
       "pinyin": "Rìyǔ",
       "translation_d": "japanische Sprache",
@@ -748,7 +747,7 @@
       "chapter": 3,
       "tone": 0
     },
-    "3-28": {
+    {
       "character": "",
       "pinyin": "",
       "translation_d": "",
@@ -759,7 +758,7 @@
       "chapter": 3,
       "tone": 0
     },
-    "3-29": {
+    {
       "character": "",
       "pinyin": "",
       "translation_d": "",
@@ -770,7 +769,7 @@
       "chapter": 3,
       "tone": 0
     },
-    "3-30": {
+    {
       "character": "",
       "pinyin": "",
       "translation_d": "",
@@ -781,7 +780,7 @@
       "chapter": 3,
       "tone": 0
     },
-    "3-31": {
+    {
       "character": "",
       "pinyin": "",
       "translation_d": "",
@@ -792,7 +791,7 @@
       "chapter": 3,
       "tone": 0
     },
-    "4-00": {
+    {
       "character": "现在",
       "pinyin": "xiànzài",
       "translation_d": "jetzt",
@@ -803,7 +802,7 @@
       "chapter": 4,
       "tone": 4
     },
-    "4-01": {
+    {
       "character": "几",
       "pinyin": "jǐ",
       "translation_d": "wie viel (v.a. für Zahlen unter 10)",
@@ -814,7 +813,7 @@
       "chapter": 4,
       "tone": 3
     },
-    "4-02": {
+    {
       "character": "点",
       "pinyin": "diǎn",
       "translation_d": "Uhr (bei Uhrzeiten)",
@@ -825,7 +824,7 @@
       "chapter": 4,
       "tone": 3
     },
-    "4-03": {
+    {
       "character": "半",
       "pinyin": "bàn",
       "translation_d": "halb",
@@ -836,7 +835,7 @@
       "chapter": 4,
       "tone": 4
     },
-    "4-04": {
+    {
       "character": "对不起",
       "pinyin": "duìbuqǐ",
       "translation_d": "Entschuldigung",
@@ -847,7 +846,7 @@
       "chapter": 4,
       "tone": 0
     },
-    "4-05": {
+    {
       "character": "请",
       "pinyin": "qǐng",
       "translation_d": "bitte, bitten, einladen",
@@ -858,7 +857,7 @@
       "chapter": 4,
       "tone": 3
     },
-    "4-06": {
+    {
       "character": "再",
       "pinyin": "zài",
       "translation_d": "wieder, noch, dann",
@@ -869,7 +868,7 @@
       "chapter": 4,
       "tone": 4
     },
-    "4-07": {
+    {
       "character": "遍",
       "pinyin": "biàn",
       "translation_d": "(Zahl)mal",
@@ -880,7 +879,7 @@
       "chapter": 4,
       "tone": 4
     },
-    "4-08": {
+    {
       "character": "中午",
       "pinyin": "zhōngwǔ",
       "translation_d": "Mittag",
@@ -891,7 +890,7 @@
       "chapter": 4,
       "tone": 0
     },
-    "4-09": {
+    {
       "character": "分/分钟",
       "pinyin": "fēn/fēn zhōng",
       "translation_d": "Minute (Uhrzeit)",
@@ -902,7 +901,7 @@
       "chapter": 4,
       "tone": 1
     },
-    "4-10": {
+    {
       "character": "不客气",
       "pinyin": "búkèqi",
       "translation_d": "keine Ursache",
@@ -913,7 +912,7 @@
       "chapter": 4,
       "tone": 0
     },
-    "4-11": {
+    {
       "character": "有",
       "pinyin": "yǒu",
       "translation_d": "haben, besitzen",
@@ -924,7 +923,7 @@
       "chapter": 4,
       "tone": 3
     },
-    "4-12": {
+    {
       "character": "事情/事",
       "pinyin": "shìqing/shì",
       "translation_d": "Sache, Angelegenheit",
@@ -935,7 +934,7 @@
       "chapter": 4,
       "tone": 4
     },
-    "4-13": {
+    {
       "character": "今天",
       "pinyin": "jīntiān",
       "translation_d": "heute",
@@ -946,7 +945,7 @@
       "chapter": 4,
       "tone": 1
     },
-    "4-14": {
+    {
       "character": "下午",
       "pinyin": "xiàwǔ",
       "translation_d": "Nachmittag",
@@ -957,7 +956,7 @@
       "chapter": 4,
       "tone": 0
     },
-    "4-15": {
+    {
       "character": "刻(刻钟)",
       "pinyin": "kè/kè zhōng",
       "translation_d": "",
@@ -968,7 +967,7 @@
       "chapter": 4,
       "tone": 0
     },
-    "4-16": {
+    {
       "character": "咖啡馆",
       "pinyin": "kāfēiguǎn",
       "translation_d": "Café",
@@ -979,7 +978,7 @@
       "chapter": 4,
       "tone": 0
     },
-    "4-17": {
+    {
       "character": "等",
       "pinyin": "děng",
       "translation_d": "warten",
@@ -990,7 +989,7 @@
       "chapter": 4,
       "tone": 3
     },
-    "4-18": {
+    {
       "character": "跟",
       "pinyin": "gēn",
       "translation_d": "mit, folgen",
@@ -1001,7 +1000,7 @@
       "chapter": 4,
       "tone": 1
     },
-    "4-19": {
+    {
       "character": "约会",
       "pinyin": "yuē huì",
       "translation_d": "verabreden, Verabredung",
@@ -1012,7 +1011,7 @@
       "chapter": 4,
       "tone": 0
     },
-    "4-20": {
+    {
       "character": "着急",
       "pinyin": "zháojí",
       "translation_d": "eilig, sich Sorgen machen",
@@ -1023,7 +1022,7 @@
       "chapter": 4,
       "tone": 2
     },
-    "4-21": {
+    {
       "character": "还",
       "pinyin": "hái",
       "translation_d": "noch",
@@ -1034,7 +1033,7 @@
       "chapter": 4,
       "tone": 2
     },
-    "4-22": {
+    {
       "character": "时间",
       "pinyin": "shíjiān",
       "translation_d": "Zeit(dauer)",
@@ -1045,7 +1044,7 @@
       "chapter": 4,
       "tone": 0
     },
-    "4-23": {
+    {
       "character": "明天",
       "pinyin": "míngtiān",
       "translation_d": "morgen",
@@ -1056,7 +1055,7 @@
       "chapter": 4,
       "tone": 0
     },
-    "4-24": {
+    {
       "character": "号",
       "pinyin": "hào",
       "translation_d": "Tag im Datum (in der mündlichen Sprache), Nummer, Größe",
@@ -1067,7 +1066,7 @@
       "chapter": 4,
       "tone": 4
     },
-    "4-25": {
+    {
       "character": "星期",
       "pinyin": "xīngqī",
       "translation_d": "Woche",
@@ -1078,7 +1077,7 @@
       "chapter": 4,
       "tone": 1
     },
-    "4-26": {
+    {
       "character": "年",
       "pinyin": "nián",
       "translation_d": "Jahr",
@@ -1089,7 +1088,7 @@
       "chapter": 4,
       "tone": 2
     },
-    "4-27": {
+    {
       "character": "月",
       "pinyin": "yuè",
       "translation_d": "Monat",
@@ -1100,7 +1099,7 @@
       "chapter": 4,
       "tone": 4
     },
-    "4-28": {
+    {
       "character": "日",
       "pinyin": "rì",
       "translation_d": "Tag im Datum (schriftliche Sprache)",
@@ -1111,7 +1110,7 @@
       "chapter": 4,
       "tone": 4
     },
-    "4-29": {
+    {
       "character": "知道",
       "pinyin": "zhīdao",
       "translation_d": "wissen",
@@ -1122,7 +1121,7 @@
       "chapter": 4,
       "tone": 1
     },
-    "4-30": {
+    {
       "character": "要",
       "pinyin": "yào",
       "translation_d": "wollen, müssen",
@@ -1133,7 +1132,7 @@
       "chapter": 4,
       "tone": 4
     },
-    "4-31": {
+    {
       "character": "看",
       "pinyin": "kàn",
       "translation_d": "lesen, sehen, anschauen",
@@ -1144,7 +1143,7 @@
       "chapter": 4,
       "tone": 4
     },
-    "4-32": {
+    {
       "character": "日历",
       "pinyin": "rìlì",
       "translation_d": "Kalender",
@@ -1155,7 +1154,7 @@
       "chapter": 4,
       "tone": 4
     },
-    "4-33": {
+    {
       "character": "晚上",
       "pinyin": "wǎnshang",
       "translation_d": "Abend",
@@ -1166,7 +1165,7 @@
       "chapter": 4,
       "tone": 3
     },
-    "4-34": {
+    {
       "character": "一起",
       "pinyin": "yìqǐ",
       "translation_d": "zusammen",
@@ -1177,7 +1176,7 @@
       "chapter": 4,
       "tone": 0
     },
-    "4-35": {
+    {
       "character": "去",
       "pinyin": "qù",
       "translation_d": "nach...gehen, hingehen",
@@ -1188,7 +1187,7 @@
       "chapter": 4,
       "tone": 4
     },
-    "4-36": {
+    {
       "character": "电影",
       "pinyin": "diànyǐng",
       "translation_d": "Film",
@@ -1199,7 +1198,7 @@
       "chapter": 4,
       "tone": 0
     },
-    "4-37": {
+    {
       "character": "想",
       "pinyin": "xiǎng",
       "translation_d": "wollen, möchten",
@@ -1210,7 +1209,7 @@
       "chapter": 4,
       "tone": 3
     },
-    "4-38": {
+    {
       "character": "漂亮",
       "pinyin": "piàoliang",
       "translation_d": "hübsch, schön",
@@ -1221,7 +1220,7 @@
       "chapter": 4,
       "tone": 4
     },
-    "4-39": {
+    {
       "character": "女人",
       "pinyin": "nǚrén",
       "translation_d": "Frau",
@@ -1232,7 +1231,7 @@
       "chapter": 4,
       "tone": 0
     },
-    "4-40": {
+    {
       "character": "但是",
       "pinyin": "dànshì",
       "translation_d": "aber",
@@ -1243,7 +1242,7 @@
       "chapter": 4,
       "tone": 4
     },
-    "4-41": {
+    {
       "character": "上午",
       "pinyin": "shàngwǔ",
       "translation_d": "Vormittag",
@@ -1254,7 +1253,7 @@
       "chapter": 4,
       "tone": 0
     },
-    "4-42": {
+    {
       "character": "没(有)",
       "pinyin": "méi(yǒu)",
       "translation_d": "nicht (haben)",
@@ -1265,7 +1264,7 @@
       "chapter": 4,
       "tone": 2
     },
-    "4-43": {
+    {
       "character": "没关系",
       "pinyin": "méi guānxi",
       "translation_d": "keine Ursache",
@@ -1276,7 +1275,7 @@
       "chapter": 4,
       "tone": 0
     },
-    "4-44": {
+    {
       "character": "吧",
       "pinyin": "ba",
       "translation_d": "Partikel (Vermutung, Einverständnis)",
@@ -1287,7 +1286,7 @@
       "chapter": 4,
       "tone": 0
     },
-    "5-01": {
+    {
       "character": "人民币",
       "pinyin": "Rénmínbì",
       "translation_d": "RMB / CNY (chinesische Währung)",
@@ -1298,7 +1297,7 @@
       "chapter": 5,
       "tone": 0
     },
-    "5-02": {
+    {
       "character": "千",
       "pinyin": "qiān",
       "translation_d": "tausend",
@@ -1309,7 +1308,7 @@
       "chapter": 5,
       "tone": 1
     },
-    "5-03": {
+    {
       "character": "欧元",
       "pinyin": "Ōuyuán",
       "translation_d": "Euro",
@@ -1320,7 +1319,7 @@
       "chapter": 5,
       "tone": 0
     },
-    "5-04": {
+    {
       "character": "元",
       "pinyin": "yuán",
       "translation_d": "ZEW für (Geld) = 10 jiǎo",
@@ -1331,7 +1330,7 @@
       "chapter": 5,
       "tone": 2
     },
-    "5-05": {
+    {
       "character": "块",
       "pinyin": "kuài",
       "translation_d": "ZEW für (Geld) = 10 jiǎo (umgangssprachlich)",
@@ -1342,7 +1341,7 @@
       "chapter": 5,
       "tone": 4
     },
-    "5-06": {
+    {
       "character": "角",
       "pinyin": "jiǎo",
       "translation_d": "ZEW für (Geld) = 10 fēn",
@@ -1353,7 +1352,7 @@
       "chapter": 5,
       "tone": 3
     },
-    "5-07": {
+    {
       "character": "毛",
       "pinyin": "máo",
       "translation_d": "ZEW für (Geld) = 10 fēn (umgangssprachlich)",
@@ -1364,7 +1363,7 @@
       "chapter": 5,
       "tone": 2
     },
-    "5-08": {
+    {
       "character": "分",
       "pinyin": "fēn",
       "translation_d": "ZEW für (Geld), kleinste Einheit",
@@ -1375,7 +1374,7 @@
       "chapter": 5,
       "tone": 1
     },
-    "5-09": {
+    {
       "character": "空",
       "pinyin": "kòng",
       "translation_d": "leer, frei",
@@ -1386,7 +1385,7 @@
       "chapter": 5,
       "tone": 4
     },
-    "5-10": {
+    {
       "character": "房间",
       "pinyin": "fángjiān",
       "translation_d": "Zimmer",
@@ -1397,7 +1396,7 @@
       "chapter": 5,
       "tone": 0
     },
-    "5-11": {
+    {
       "character": "要",
       "pinyin": "yào",
       "translation_d": "haben wollen, brauchen",
@@ -1408,7 +1407,7 @@
       "chapter": 5,
       "tone": 4
     },
-    "5-12": {
+    {
       "character": "单",
       "pinyin": "dān",
       "translation_d": "Einzel-",
@@ -1419,7 +1418,7 @@
       "chapter": 5,
       "tone": 1
     },
-    "5-13": {
+    {
       "character": "双",
       "pinyin": "shuāng",
       "translation_d": "Doppel- ,ZEW für (paarige Dinge)",
@@ -1430,7 +1429,7 @@
       "chapter": 5,
       "tone": 1
     },
-    "5-14": {
+    {
       "character": "还是",
       "pinyin": "háishi",
       "translation_d": "oder (Bildung von Alternativfragen)",
@@ -1441,7 +1440,7 @@
       "chapter": 5,
       "tone": 2
     },
-    "5-15": {
+    {
       "character": "间",
       "pinyin": "jiān",
       "translation_d": "ZEW für (Zimmer)",
@@ -1452,7 +1451,7 @@
       "chapter": 5,
       "tone": 1
     },
-    "5-16": {
+    {
       "character": "住",
       "pinyin": "zhù",
       "translation_d": "wohnen",
@@ -1463,7 +1462,7 @@
       "chapter": 5,
       "tone": 4
     },
-    "5-17": {
+    {
       "character": "两",
       "pinyin": "liǎng",
       "translation_d": "zwei (Verbindung mit ZEW)",
@@ -1474,7 +1473,7 @@
       "chapter": 5,
       "tone": 3
     },
-    "5-18": {
+    {
       "character": "天",
       "pinyin": "tiān",
       "translation_d": "Tag",
@@ -1485,7 +1484,7 @@
       "chapter": 5,
       "tone": 1
     },
-    "5-19": {
+    {
       "character": "多少",
       "pinyin": "duōshao",
       "translation_d": "wie viel (bei Geld oder Menge > 10)",
@@ -1496,7 +1495,7 @@
       "chapter": 5,
       "tone": 1
     },
-    "5-20": {
+    {
       "character": "钱",
       "pinyin": "qián",
       "translation_d": "Geld",
@@ -1507,7 +1506,7 @@
       "chapter": 5,
       "tone": 2
     },
-    "5-21": {
+    {
       "character": "个",
       "pinyin": "ge",
       "translation_d": "ZEW für (Allgemein)",
@@ -1518,7 +1517,7 @@
       "chapter": 5,
       "tone": 0
     },
-    "5-22": {
+    {
       "character": "这么",
       "pinyin": "zhème",
       "translation_d": "so, so sehr",
@@ -1529,7 +1528,7 @@
       "chapter": 5,
       "tone": 4
     },
-    "5-23": {
+    {
       "character": "能",
       "pinyin": "néng",
       "translation_d": "können",
@@ -1540,7 +1539,7 @@
       "chapter": 5,
       "tone": 2
     },
-    "5-24": {
+    {
       "character": "便宜",
       "pinyin": "piányi",
       "translation_d": "billig",
@@ -1551,7 +1550,7 @@
       "chapter": 5,
       "tone": 2
     },
-    "5-25": {
+    {
       "character": "可以",
       "pinyin": "kěyǐ",
       "translation_d": "dürfen, können",
@@ -1562,7 +1561,7 @@
       "chapter": 5,
       "tone": 3
     },
-    "5-26": {
+    {
       "character": "以上",
       "pinyin": "yǐshàng",
       "translation_d": "über (einer bestimmten Menge)",
@@ -1573,7 +1572,7 @@
       "chapter": 5,
       "tone": 0
     },
-    "5-27": {
+    {
       "character": "行",
       "pinyin": "xíng",
       "translation_d": "O.K., das geht in Ordnung, das geht",
@@ -1584,7 +1583,7 @@
       "chapter": 5,
       "tone": 2
     },
-    "5-28": {
+    {
       "character": "填",
       "pinyin": "tián",
       "translation_d": "ausfüllen",
@@ -1595,7 +1594,7 @@
       "chapter": 5,
       "tone": 2
     },
-    "5-29": {
+    {
       "character": "表格",
       "pinyin": "biǎogé",
       "translation_d": "Formular",
@@ -1606,7 +1605,7 @@
       "chapter": 5,
       "tone": 0
     },
-    "5-30": {
+    {
       "character": "卡",
       "pinyin": "kǎ",
       "translation_d": "Karte (Kredit-, Zugangskarte u.ä.)",
@@ -1617,7 +1616,7 @@
       "chapter": 5,
       "tone": 3
     },
-    "5-31": {
+    {
       "character": "楼",
       "pinyin": "lóu",
       "translation_d": "Gebäude, ZEW für (Etagen)",
@@ -1628,7 +1627,7 @@
       "chapter": 5,
       "tone": 2
     },
-    "5-32": {
+    {
       "character": "付",
       "pinyin": "fù",
       "translation_d": "bezahlen",
@@ -1639,7 +1638,7 @@
       "chapter": 5,
       "tone": 4
     },
-    "5-33": {
+    {
       "character": "了",
       "pinyin": "le",
       "translation_d": "Vergangenheitspartikel",
@@ -1650,7 +1649,7 @@
       "chapter": 5,
       "tone": 0
     },
-    "5-34": {
+    {
       "character": "一共",
       "pinyin": "yígòng",
       "translation_d": "insgesamt",
@@ -1661,7 +1660,7 @@
       "chapter": 5,
       "tone": 0
     },
-    "5-35": {
+    {
       "character": "用",
       "pinyin": "yòng",
       "translation_d": "mit; benutzen, gebrauchen",
@@ -1672,7 +1671,7 @@
       "chapter": 5,
       "tone": 4
     },
-    "5-36": {
+    {
       "character": "宾馆",
       "pinyin": "bīnguǎn",
       "translation_d": "Hotel",
@@ -1683,7 +1682,7 @@
       "chapter": 5,
       "tone": 0
     },
-    "5-37": {
+    {
       "character": "刷卡",
       "pinyin": "shuā kǎ",
       "translation_d": "mit Karte bezahlen",
@@ -1694,7 +1693,7 @@
       "chapter": 5,
       "tone": 0
     },
-    "5-38": {
+    {
       "character": "换",
       "pinyin": "huàn",
       "translation_d": "wechseln",
@@ -1705,7 +1704,7 @@
       "chapter": 5,
       "tone": 4
     },
-    "5-39": {
+    {
       "character": "附近",
       "pinyin": "fùjìn",
       "translation_d": "in der Nähe, direkte Umgebung",
@@ -1716,7 +1715,7 @@
       "chapter": 5,
       "tone": 4
     },
-    "5-40": {
+    {
       "character": "银行",
       "pinyin": "yínháng",
       "translation_d": "Bank",
@@ -1727,7 +1726,7 @@
       "chapter": 5,
       "tone": 2
     },
-    "5-41": {
+    {
       "character": "对面",
       "pinyin": "duìmiàn",
       "translation_d": "gegenüber",
@@ -1738,7 +1737,7 @@
       "chapter": 5,
       "tone": 4
     },
-    "5-42": {
+    {
       "character": "自动取款机",
       "pinyin": "zìdòng qǔkuǎnjī",
       "translation_d": "Geldautomat",
@@ -1749,7 +1748,7 @@
       "chapter": 5,
       "tone": 0
     },
-    "5-43": {
+    {
       "character": "取",
       "pinyin": "qǔ",
       "translation_d": "abholen, holen",
@@ -1760,7 +1759,7 @@
       "chapter": 5,
       "tone": 3
     },
-    "6-01": {
+    {
       "character": "餐馆",
       "pinyin": "cānguǎn",
       "translation_d": "Restaurant",
@@ -1771,7 +1770,7 @@
       "chapter": 6,
       "tone": 0
     },
-    "6-02": {
+    {
       "character": "吃饭",
       "pinyin": "chī fàn",
       "translation_d": "essen",
@@ -1782,7 +1781,7 @@
       "chapter": 6,
       "tone": 0
     },
-    "6-03": {
+    {
       "character": "喜欢",
       "pinyin": "xǐhuan",
       "translation_d": "mögen",
@@ -1793,7 +1792,7 @@
       "chapter": 6,
       "tone": 3
     },
-    "6-04": {
+    {
       "character": "饭",
       "pinyin": "fàn",
       "translation_d": "Essen",
@@ -1804,7 +1803,7 @@
       "chapter": 6,
       "tone": 4
     },
-    "6-05": {
+    {
       "character": "告诉",
       "pinyin": "gàosù",
       "translation_d": "erzählen,mitteilen",
@@ -1815,7 +1814,7 @@
       "chapter": 6,
       "tone": 4
     },
-    "6-06": {
+    {
       "character": "欢迎光临",
       "pinyin": "huānyíng guānglín",
       "translation_d": "Herzlich Willkommen!",
@@ -1826,7 +1825,7 @@
       "chapter": 6,
       "tone": 0
     },
-    "6-07": {
+    {
       "character": "位",
       "pinyin": "wèi",
       "translation_d": "ZEW für (Personen), höflich",
@@ -1837,7 +1836,7 @@
       "chapter": 6,
       "tone": 4
     },
-    "6-08": {
+    {
       "character": "坐",
       "pinyin": "zuò",
       "translation_d": "setzen, Platz nehmen, sitzen",
@@ -1848,7 +1847,7 @@
       "chapter": 6,
       "tone": 4
     },
-    "6-09": {
+    {
       "character": "喝",
       "pinyin": "hē",
       "translation_d": "trinken",
@@ -1859,7 +1858,7 @@
       "chapter": 6,
       "tone": 1
     },
-    "6-10": {
+    {
       "character": "饮料",
       "pinyin": "yǐnliào",
       "translation_d": "Getränke",
@@ -1870,7 +1869,7 @@
       "chapter": 6,
       "tone": 0
     },
-    "6-11": {
+    {
       "character": "矿泉水",
       "pinyin": "kuàngquánshuǐ",
       "translation_d": "Mineralwasser",
@@ -1881,7 +1880,7 @@
       "chapter": 6,
       "tone": 0
     },
-    "6-12": {
+    {
       "character": "苹果汁",
       "pinyin": "píngguǒzhī",
       "translation_d": "Apfelsaft",
@@ -1892,7 +1891,7 @@
       "chapter": 6,
       "tone": 0
     },
-    "6-13": {
+    {
       "character": "服务员",
       "pinyin": "fúwùyuán",
       "translation_d": "Bedienung",
@@ -1903,7 +1902,7 @@
       "chapter": 6,
       "tone": 0
     },
-    "6-14": {
+    {
       "character": "绿茶",
       "pinyin": "lǜchá",
       "translation_d": "grüner Tee",
@@ -1914,7 +1913,7 @@
       "chapter": 6,
       "tone": 0
     },
-    "6-15": {
+    {
       "character": "咖啡",
       "pinyin": "kāfēi",
       "translation_d": "Kaffee",
@@ -1925,7 +1924,7 @@
       "chapter": 6,
       "tone": 1
     },
-    "6-16": {
+    {
       "character": "啤酒",
       "pinyin": "píjiǔ",
       "translation_d": "Bier",
@@ -1936,7 +1935,7 @@
       "chapter": 6,
       "tone": 0
     },
-    "6-17": {
+    {
       "character": "瓶",
       "pinyin": "píng",
       "translation_d": "ZEW für (Flaschen)",
@@ -1947,7 +1946,7 @@
       "chapter": 6,
       "tone": 2
     },
-    "6-18": {
+    {
       "character": "杯",
       "pinyin": "bēi",
       "translation_d": "ZEW für (Tassen, Gläser, Becher)",
@@ -1958,7 +1957,7 @@
       "chapter": 6,
       "tone": 1
     },
-    "6-19": {
+    {
       "character": "壶",
       "pinyin": "hú",
       "translation_d": "Kanne, ZEW für (Kannen)",
@@ -1969,7 +1968,7 @@
       "chapter": 6,
       "tone": 2
     },
-    "6-20": {
+    {
       "character": "菜单",
       "pinyin": "càidān",
       "translation_d": "Speisekarte",
@@ -1980,7 +1979,7 @@
       "chapter": 6,
       "tone": 0
     },
-    "6-21": {
+    {
       "character": "马上",
       "pinyin": "mǎshàng",
       "translation_d": "sofort",
@@ -1991,7 +1990,7 @@
       "chapter": 6,
       "tone": 0
     },
-    "6-22": {
+    {
       "character": "点菜",
       "pinyin": "diǎn cài",
       "translation_d": "Essen bestellen",
@@ -2002,7 +2001,7 @@
       "chapter": 6,
       "tone": 0
     },
-    "6-23": {
+    {
       "character": "点",
       "pinyin": "diǎn",
       "translation_d": "Gericht bestellen",
@@ -2013,7 +2012,7 @@
       "chapter": 6,
       "tone": 3
     },
-    "6-24": {
+    {
       "character": "春卷",
       "pinyin": "chūnjuǎn",
       "translation_d": "Frühlingsrolle",
@@ -2024,7 +2023,7 @@
       "chapter": 6,
       "tone": 0
     },
-    "6-25": {
+    {
       "character": "肉",
       "pinyin": "ròu",
       "translation_d": "Fleisch",
@@ -2035,7 +2034,7 @@
       "chapter": 6,
       "tone": 4
     },
-    "6-26": {
+    {
       "character": "里",
       "pinyin": "lǐ",
       "translation_d": "in",
@@ -2046,7 +2045,7 @@
       "chapter": 6,
       "tone": 3
     },
-    "6-27": {
+    {
       "character": "给",
       "pinyin": "gěi",
       "translation_d": "geben; für; an (Präposition)",
@@ -2057,7 +2056,7 @@
       "chapter": 6,
       "tone": 3
     },
-    "6-28": {
+    {
       "character": "家",
       "pinyin": "jiā",
       "translation_d": "Familie, ZEW (Unternehmen)",
@@ -2068,7 +2067,7 @@
       "chapter": 6,
       "tone": 1
     },
-    "6-29": {
+    {
       "character": "烤鸭",
       "pinyin": "kǎo yā",
       "translation_d": "geröstete Ente",
@@ -2079,7 +2078,7 @@
       "chapter": 6,
       "tone": 0
     },
-    "6-30": {
+    {
       "character": "鱼",
       "pinyin": "yú",
       "translation_d": "Fisch",
@@ -2090,7 +2089,7 @@
       "chapter": 6,
       "tone": 2
     },
-    "6-31": {
+    {
       "character": "炒",
       "pinyin": "chǎo",
       "translation_d": "braten",
@@ -2101,7 +2100,7 @@
       "chapter": 6,
       "tone": 3
     },
-    "6-32": {
+    {
       "character": "牛肉",
       "pinyin": "niúròu",
       "translation_d": "Rindfleisch",
@@ -2112,7 +2111,7 @@
       "chapter": 6,
       "tone": 0
     },
-    "6-33": {
+    {
       "character": "份",
       "pinyin": "fèn",
       "translation_d": "ZEW für (Portionen)",
@@ -2123,7 +2122,7 @@
       "chapter": 6,
       "tone": 4
     },
-    "6-34": {
+    {
       "character": "碗",
       "pinyin": "wǎn",
       "translation_d": "Schüssel; ZEW (Schüsseln)",
@@ -2134,7 +2133,7 @@
       "chapter": 6,
       "tone": 3
     },
-    "6-35": {
+    {
       "character": "酸",
       "pinyin": "suān",
       "translation_d": "sauer",
@@ -2145,7 +2144,7 @@
       "chapter": 6,
       "tone": 1
     },
-    "6-36": {
+    {
       "character": "辣",
       "pinyin": "là",
       "translation_d": "scharf",
@@ -2156,7 +2155,7 @@
       "chapter": 6,
       "tone": 4
     },
-    "6-37": {
+    {
       "character": "汤",
       "pinyin": "tāng",
       "translation_d": "Suppe",
@@ -2167,7 +2166,7 @@
       "chapter": 6,
       "tone": 1
     },
-    "6-38": {
+    {
       "character": "筷子",
       "pinyin": "kuàizi",
       "translation_d": "Essstäbchen",
@@ -2178,7 +2177,7 @@
       "chapter": 6,
       "tone": 4
     },
-    "6-39": {
+    {
       "character": "米饭",
       "pinyin": "mǐfàn",
       "translation_d": "gekochter Reis",
@@ -2189,7 +2188,7 @@
       "chapter": 6,
       "tone": 0
     },
-    "6-40": {
+    {
       "character": "米",
       "pinyin": "mǐ",
       "translation_d": "Reis",
@@ -2200,7 +2199,7 @@
       "chapter": 6,
       "tone": 3
     },
-    "6-41": {
+    {
       "character": "怎么",
       "pinyin": "zěnme",
       "translation_d": "wie",
@@ -2211,7 +2210,7 @@
       "chapter": 6,
       "tone": 3
     },
-    "6-42": {
+    {
       "character": "怎么样",
       "pinyin": "zěnmeyàng",
       "translation_d": "wie findet man es",
@@ -2222,7 +2221,7 @@
       "chapter": 6,
       "tone": 0
     },
-    "6-43": {
+    {
       "character": "菜",
       "pinyin": "cài",
       "translation_d": "Speise, Gericht",
@@ -2233,7 +2232,7 @@
       "chapter": 6,
       "tone": 4
     },
-    "6-44": {
+    {
       "character": "慢",
       "pinyin": "màn",
       "translation_d": "langsam",
@@ -2244,7 +2243,7 @@
       "chapter": 6,
       "tone": 4
     },
-    "6-45": {
+    {
       "character": "干杯",
       "pinyin": "gānbēi",
       "translation_d": "Prost, zum Wohl",
@@ -2255,7 +2254,7 @@
       "chapter": 6,
       "tone": 1
     },
-    "6-46": {
+    {
       "character": "买单",
       "pinyin": "mǎi dān",
       "translation_d": "bezahlen",
@@ -3064,5 +3063,4 @@
       "chapter": 8,
       "tone": 0
     }
-  }
-}
+]
