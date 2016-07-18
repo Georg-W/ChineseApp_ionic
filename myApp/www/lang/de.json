@@ -73,6 +73,10 @@
     "OTHER_ID": "Andere Ressourcen"
   },
 
+  "FEEDBACK": {
+    "FEEDBACK_ID":"Feedback"
+  },
+
   "SETTINGS": {
     "LANGUAGE_ID":"Sprache"
   }

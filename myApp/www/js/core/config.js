@@ -99,6 +99,16 @@
             templateUrl: 'templates/signup.html'
           }
         }
+      })
+
+      .state('app.feedback', {
+        url: '/feedback',
+        views: {
+          'sidemenu': {
+            templateUrl: 'templates/feedback.html',
+            controller: 'feedbackController'
+          }
+        }
       });
 
     $urlRouterProvider.otherwise('/app/home');

@@ -1,0 +1,25 @@
+<ion-view title="Feedback" id="page11" class=" ">
+    <ion-content padding="true" class="has-header">
+        <form id="feedback-form6" class="list ">
+            <label class="item item-select " id="feedback-select4">
+                <span class="input-label">Art</span>
+                <select>
+                    <option>Immersion Content</option>
+                    <option>Bug Report</option>
+                    <option>General Feedback</option>
+                  <option>Other</option>
+                </select>
+            </label>
+        </form>
+        <form id="feedback-form7" class="list ">
+            <label class="item item-input " id="feedback-textarea1">
+                <span class="input-label">Feedback</span><textarea placeholder=""></textarea>
+            </label>
+        </form>
+      <ion-item>
+        <ion-label>Comments</ion-label>
+        <ion-textarea></ion-textarea>
+      </ion-item>
+        <button id="feedback-button11" class=" button button-positive  button-block " ng-click="sendMail()">Submit</button>
+    </ion-content>
+</ion-view>
