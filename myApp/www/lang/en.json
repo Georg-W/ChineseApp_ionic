@@ -14,7 +14,8 @@
       "QUIZ_ID":"Quiz",
       "ACCOUNT_ID":"Account",
       "ABOUT_ID":"About",
-      "SETTINGS_ID":"Settings"
+      "SETTINGS_ID":"Settings",
+      "FEEDBACK_ID":"Feedback"
     },
 
     "FLASHCARDTABLE": {

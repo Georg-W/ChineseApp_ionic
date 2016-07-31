@@ -1,25 +1,21 @@
-<ion-view title="Feedback" id="page11" class=" ">
+<ion-view title="{{'MENU.FEEDBACK_ID' | translate}}" id="page11" class=" ">
     <ion-content padding="true" class="has-header">
-        <form id="feedback-form6" class="list ">
-            <label class="item item-select " id="feedback-select4">
-                <span class="input-label">Art</span>
-                <select>
-                    <option>Immersion Content</option>
-                    <option>Bug Report</option>
-                    <option>General Feedback</option>
-                  <option>Other</option>
-                </select>
-            </label>
-        </form>
-        <form id="feedback-form7" class="list ">
-            <label class="item item-input " id="feedback-textarea1">
-                <span class="input-label">Feedback</span><textarea placeholder=""></textarea>
-            </label>
-        </form>
-      <ion-item>
-        <ion-label>Comments</ion-label>
-        <ion-textarea></ion-textarea>
-      </ion-item>
-        <button id="feedback-button11" class=" button button-positive  button-block " ng-click="sendMail()">Submit</button>
+      <form action="https://formspree.io/links@journeytochinatown.com"
+            method="POST">
+        <br>
+        <label class="item item-input " id="feedback-textarea3">
+                  <span class="input-label">E-mail</span><input type="email" name="_replyto">
+        </label>
+
+        <br>
+
+        <label class="item item-input " id="feedback-textarea3">
+            <span class="input-label">Message</span><textarea placeholder="" name="message" rows="10"></textarea>
+        </label>
+
+        <br>
+
+        <input type="submit" value="Send" class="button button-positive  button-block ">
+      </form>
     </ion-content>
 </ion-view>

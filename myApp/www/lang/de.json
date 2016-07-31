@@ -13,7 +13,8 @@
     "QUIZ_ID":"Quiz",
     "ACCOUNT_ID":"Account",
     "ABOUT_ID":"Impressum",
-    "SETTINGS_ID":"Einstellungen"
+    "SETTINGS_ID":"Einstellungen",
+    "FEEDBACK_ID":"Feedback"
   },
 
   "FLASHCARDTABLE": {

@@ -10,9 +10,10 @@
     .controller('feedbackController',['$scope', function($scope) {
 
 
-      $scope.sendMail = function () {
-        var link = "mailto:georg.westner@googlemail.com"
-            + "?cc=georg.westner@googlemail.com";
+      $scope.sendMail = function (Mail) {
+        console.log(Mail.message);
+        var link = "mailto:links@journeytochinatown.com"
+            + "?cc=$scope.usermail";
         console.log('Email sent');
         window.location.href = link;
       }
