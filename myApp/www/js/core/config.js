@@ -105,8 +105,7 @@
         url: '/feedback',
         views: {
           'sidemenu': {
-            templateUrl: 'templates/feedback.html',
-            controller: 'feedbackController'
+            templateUrl: 'templates/feedback.html'
           }
         }
       });
