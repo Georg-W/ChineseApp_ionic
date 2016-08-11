@@ -4,8 +4,8 @@
         <form id="quiz-form4" class="list ">
             <label class="item item-select " id="quiz-select3">
                 <span class="input-label">{{'QUIZ.CHAPTER_ID' | translate}}</span>
-                <select ng-model="chapter" ng-change="takeOverChapter(chapter)">
-                    <option value="All">{{'QUIZ.ALL_ID' | translate}}</option>
+                <select ng-init="" ng-model="chapter" ng-change="takeOverChapter(chapter)">
+                    <option value="">{{'QUIZ.ALL_ID' | translate}}</option>
                     <option value="1">{{'QUIZ.1_ID' | translate}}</option>
                     <option value="2">{{'QUIZ.2_ID' | translate}}</option>
                     <option value="3">{{'QUIZ.3_ID' | translate}}</option>
@@ -14,6 +14,12 @@
                     <option value="6">{{'QUIZ.6_ID' | translate}}</option>
                     <option value="7">{{'QUIZ.7_ID' | translate}}</option>
                     <option value="8">{{'QUIZ.8_ID' | translate}}</option>
+                    <option value="9">{{'QUIZ.9_ID' | translate}}</option>
+                    <option value="10">{{'QUIZ.10_ID' | translate}}</option>
+                    <option value="11">{{'QUIZ.11_ID' | translate}}</option>
+                    <option value="12">{{'QUIZ.12_ID' | translate}}</option>
+                    <option value="13">{{'QUIZ.13_ID' | translate}}</option>
+                    <option value="14">{{'QUIZ.14_ID' | translate}}</option>
                 </select>
             </label>
         </form>

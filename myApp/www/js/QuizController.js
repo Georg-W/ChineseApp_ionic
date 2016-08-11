@@ -33,7 +33,7 @@
                             var index=0;
                             var count = -1;  // for cardArray // Of by one Issue with Chapter Selection
                             var cardArray;
-                            var chapter = "All";
+                            var chapter = "";
                             var chapterChanged = false; //changeChapter
                             var tone; ////cardTone()/////
                             var color; ////cardTone()////
@@ -45,7 +45,7 @@
                               console.log(chapter);
                                 cardArray=[j];
 
-                                if(chapter == "All"){
+                                if(chapter == ""){
                                     $scope.count = -1;
                                     cardArray=[$scope.Cards.length];
                                     for (var i = 0; i < $scope.Cards.length; i++) {
