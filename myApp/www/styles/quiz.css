@@ -1,6 +1,4 @@
-
-@media (max-width: 1920px) {
-  .character{
+ .character{
     line-height: 100px;
     align-content: center;
   }
@@ -8,4 +6,4 @@
     align-content: center;
   }
 
-}
+
