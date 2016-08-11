@@ -1,9 +1,10 @@
 <ion-view title="{{'MENU.FLASHCARDS_ID' | translate}}" id="page2" class=" ">
+  <link href="../styles/flashcard.css" rel="stylesheet">
     <ion-content padding="true" class="has-header">
         <form id="flashcards-form3" class="list ">
             <label class="item item-select " id="flashcards-select1">
                 <span class="input-label">{{'FLASHCARDTABLE.CHAPTER_ID' | translate}}</span>
-                <select ng-model="chapterSelection">
+                <select ng-init=""> ng-model="chapterSelection">
                     <option value="">{{'FLASHCARDTABLE.ALL_ID' | translate}}</option>
                     <option value="1">{{'FLASHCARDTABLE.1_ID' | translate}}</option>
                     <option value="2">{{'FLASHCARDTABLE.2_ID' | translate}}</option>

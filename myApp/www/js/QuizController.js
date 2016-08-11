@@ -9,7 +9,6 @@
         .module('myApp.controllers')
         .controller('quizController',['$scope','$rootScope','dataservice', function($scope, $rootScope, dataservice){
 
-
             $scope.language ="en";
 
           $rootScope.$on('languageGotChanged',function(msg,lang){
@@ -66,6 +65,7 @@
                                     $scope.shuffleArray(cardArray);
                                 }
                             };
+
 
                             $scope.shuffleArray = function(){
 
@@ -154,11 +154,13 @@
                                 console.log(wrongAnswer);
                                 $scope.Add();
                             };
-
+                      $scope.takeOverChapter(chapter);
                     }, function (error) {
                         $scope.status = 'Unable to load customer data: ' + error.message;
                     });
+
             }
+
 
 
 

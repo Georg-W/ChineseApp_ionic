@@ -25,15 +25,6 @@
         abstract:true
       })
 
-      .state('app.home', {
-        url: '/home',
-        views: {
-          'sidemenu': {
-            templateUrl: 'templates/home.html'
-          }
-        }
-      })
-
       .state('app.quiz', {
         url: '/quiz',
         views: {
@@ -54,15 +45,6 @@
         }
       })
 
-      .state('app.immersion', {
-        url: '/immersion',
-        views: {
-          'sidemenu': {
-            templateUrl: 'templates/immersion.html',
-            controller: 'immersionController'
-          }
-        }
-      })
 
       .state('app.settings', {
         url: '/settings',
@@ -83,24 +65,6 @@
         }
       })
 
-      .state('app.login', {
-        url: '/login',
-        views: {
-          'sidemenu': {
-            templateUrl: 'templates/login.html'
-          }
-        }
-      })
-
-      .state('app.signup', {
-        url: '/signup',
-        views: {
-          'sidemenu': {
-            templateUrl: 'templates/signup.html'
-          }
-        }
-      })
-
       .state('app.feedback', {
         url: '/feedback',
         views: {
@@ -110,7 +74,7 @@
         }
       });
 
-    $urlRouterProvider.otherwise('/app/home');
+    $urlRouterProvider.otherwise('/app/flashcards');
 
     $translateProvider
       .preferredLanguage('en')
