@@ -3,7 +3,7 @@
 /////////////////////////////////////////////////////////////////////////////////*/
 
 body{
-    font-family: 'Raleway', sans-serif, "KaiTi", "楷体", STKaiti, "华文楷体", serif;
+  font-family: 'Raleway', sans-serif, "KaiTi", "楷体", STKaiti, "华文楷体", serif;
 }
 
 
@@ -32,7 +32,7 @@ a:link{
   }
 
   #sidemenu{
-    background-color: lightgreen;
+    background-color: #77C8CF;
   }
 }
 

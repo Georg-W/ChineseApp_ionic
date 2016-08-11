@@ -1,0 +1,11 @@
+
+@media (max-width: 1920px) {
+  .character{
+    line-height: 100px;
+    align-content: center;
+  }
+  #quiz-card{
+    align-content: center;
+  }
+
+}

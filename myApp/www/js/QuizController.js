@@ -154,6 +154,7 @@
                                 console.log(wrongAnswer);
                                 $scope.Add();
                             };
+
                       $scope.takeOverChapter(chapter);
                     }, function (error) {
                         $scope.status = 'Unable to load customer data: ' + error.message;

@@ -3,7 +3,7 @@
     <form id="quiz-form4" class="list ">
       <label class="item item-select " id="quiz-select3">
         <span class="input-label">{{'SETTINGS.LANGUAGE_ID' | translate}}</span>
-        <select ng-init="changeLanguage(langKey)" ng-model="langKey" ng-change="changeLanguage(langKey)">
+        <select ng-init="en" ng-model="langKey" ng-change="changeLanguage(langKey)">
           <option value="de">Deutsch</option>
           <option value="en" selected="">English</option>
           </select>
