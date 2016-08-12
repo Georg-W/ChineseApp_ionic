@@ -16,6 +16,17 @@
 
 
 
+          $scope.active = false;
+
+
+          $scope.select= function(item) {
+            $scope.selected = ($scope.selected === item ? null : item);
+          };
+
+          $scope.isActive = function(item) {
+            return $scope.selected === item;
+          };
+
           $scope.language = languageservice.getLang();
 
           $rootScope.$on('$viewContentLoading',

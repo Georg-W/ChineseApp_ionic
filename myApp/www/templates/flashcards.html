@@ -29,11 +29,14 @@
             </label>
             <div class="spacer" style="width: 300px; height: 19px;"></div>
             <div>
-            <ion-item id="flashcards-list-item7" class="  " ng-repeat="Card in Cards | filter  : {chapter : chapterSelection} | filter : search : ignoreTones | orderBy: sortField ">
-              <div>{{Card.character}}</div>
-              <div>{{Card.pinyin}}</div>
-              <div ng-show="language == 'de'">{{Card.translation_d}}</div>
-              <div ng-show="language == 'en'">{{Card.translation_e}}</div>
+            <ion-item id="flashcard-container"  ng-repeat="Card in Cards | filter  : {chapter : chapterSelection} | filter : search : ignoreTones | orderBy: sortField "
+              ng-click="select(Card)">
+              <div id="flashcard"ng-class="{'active': isActive(Card)}">
+                <div id="character">{{Card.character}}</div>
+                <div id="pinyin">{{Card.pinyin}}</div>
+                <div class="translation" ng-show="language == 'de'">{{Card.translation_d}}</div>
+                <div class="translation" ng-show="language == 'en'">{{Card.translation_e}}</div>
+              </div>
             </ion-item>
             </div>
         </form>

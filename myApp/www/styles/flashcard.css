@@ -1,0 +1,36 @@
+#flashcard{
+
+  font-size: 1.2em;
+  align-content: center;
+  justify-content: center;
+}
+
+.active {
+  height: 200px;
+  margin: auto;
+  font-size: 1.4em;
+}
+
+#character {
+  font-size: 1.4em;
+}
+
+.active #character {
+  padding: 20px;
+  margin-left:auto;
+}
+
+#pinyin {
+
+}
+
+  .active #pinyin {
+
+  }
+
+.translation {
+
+}
+  .active .translation {
+
+  }
