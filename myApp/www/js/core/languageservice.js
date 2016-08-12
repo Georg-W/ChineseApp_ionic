@@ -5,16 +5,20 @@
     'use strict';
 
     angular.module('myApp.core')
-        .service('languageservice', ['$translate','broadcastservice','$rootScope', function($translate, broadcastservice ,$rootScope) {
+        .service('languageservice', ['$translate','$rootScope', function($translate, $rootScope) {
 
-            /*this.getLanguage = function(langKey){
-                $translate.use(langKey);
-                var lang = langKey;
-              console.log(lang);
-                //broadcastservice.send('changeLanguage',lang);
-                $rootScope.$broadcast('changeLanguage', langKey);
-              console.log('lang got changed');
-            };*/
+          var language_ ="en";
+
+          this.getLang = function (){
+            return language_;
+          };
+
+          $rootScope.$on('languageGotChanged',function(msg,lang){
+            console.log('wuhu');
+            console.log(lang);
+            language_ = lang;
+            console.log("language switched");
+          });
 
         }]);
 })();

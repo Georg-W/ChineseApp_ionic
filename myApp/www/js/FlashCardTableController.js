@@ -15,13 +15,16 @@
 
 
 
-            $scope.language ="en";
 
-          $rootScope.$on('languageGotChanged',function(msg,lang){
-            console.log('wuhu');
-            $scope.language = lang;
-            console.log("language switched");
-          });
+          $scope.language = languageservice.getLang();
+
+          $rootScope.$on('$viewContentLoading',
+            function(){
+              $scope.language = languageservice.getLang();
+              console.log('funzt');
+              console.log($scope.language);
+            });
+
 
             $scope.chapterSelection = "";
 

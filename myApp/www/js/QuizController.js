@@ -7,18 +7,20 @@
 
     angular
         .module('myApp.controllers')
-        .controller('quizController',['$scope','$rootScope','dataservice', function($scope, $rootScope, dataservice){
+        .controller('quizController',['$scope','$rootScope','languageservice','dataservice', function($scope, $rootScope,languageservice, dataservice){
 
-            $scope.language ="en";
 
-          $rootScope.$on('languageGotChanged',function(msg,lang){
-            console.log('wuhu');
-            $scope.language = lang;
-            console.log("language switched");
-          });
+          $scope.language = languageservice.getLang();
+          console.log($scope.language);
 
             getCards();
 
+          $rootScope.$on('$viewContentLoading',
+            function(){
+              $scope.language = languageservice.getLang();
+              console.log('funzt');
+              console.log($scope.language);
+          });
 
 
             function getCards() {
@@ -161,8 +163,6 @@
                     });
 
             }
-
-
 
 
     }]);
