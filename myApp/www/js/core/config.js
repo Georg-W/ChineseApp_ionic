@@ -21,7 +21,12 @@
 
       .state('app', {
         url: '/app',
-        templateUrl: 'templates/menu.html',
+        templateUrl: function() {
+          if (ionic.Platform.isAndroid()) {
+            return  'templates/android/menu.html';
+          }
+          return "templates/desktop/menu.html";
+        },
         abstract:true
       })
 
@@ -29,7 +34,12 @@
         url: '/quiz',
         views: {
           'sidemenu': {
-            templateUrl: 'templates/quiz.html',
+            templateUrl: function() {
+              if (ionic.Platform.isAndroid()) {
+                return  'templates/android/quiz.html';
+              }
+              return "templates/desktop/quiz.html";
+            },
             controller: 'quizController'
           }
         }
@@ -39,7 +49,12 @@
         url: '/flashcards',
         views: {
           'sidemenu': {
-            templateUrl: 'templates/flashcards.html',
+            templateUrl: function() {
+            if (ionic.Platform.isAndroid()) {
+              return  'templates/android/flashcards.html';
+            }
+            return "templates/desktop/flashcards.html";
+            },
             controller: 'flashCardController'
           }
         }
@@ -50,7 +65,12 @@
         url: '/settings',
         views: {
           'sidemenu': {
-            templateUrl: 'templates/settings.html',
+            templateUrl: function() {
+              if (ionic.Platform.isAndroid()) {
+                return  'templates/android/settings.html';
+              }
+              return "templates/desktop/settings.html";
+            },
             controller: 'navController'
           }
         }
@@ -60,7 +80,12 @@
         url: '/about',
         views: {
           'sidemenu': {
-            templateUrl: 'templates/about.html'
+            templateUrl: function() {
+              if (ionic.Platform.isAndroid()) {
+                return  'templates/android/about.html';
+              }
+              return "templates/desktop/about.html";
+            }
           }
         }
       })

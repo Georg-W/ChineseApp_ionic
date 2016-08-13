@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vokabelkarten</title>
+
+    <link rel="stylesheet" href="../../styles/desktop/flashcard_desktop.css">
+
+</head>
+<body ng-controller="flashCardController">
+
+    <div class="container">
+        <div class="chapter">
+            <h2 translate>{{'FLASHCARDTABLE.CHAPTER_ID'}}:</h2>
+            <md-input-container>
+                <label translate>{{QUIZ.CHAPTER_ID}}</label>
+                <md-select ng-model="chapterSelection" md-on-close="takeOverChapter()">
+                    <md-option value="" translate>{{"QUIZ.ALL_ID"}}</md-option>
+                    <md-option value="1" translate>1 Introduction</md-option>
+                    <md-option value="2" translate>2 </md-option>
+                    <md-option value="3" translate>3</md-option>
+                    <md-option value="4" translate>4</md-option>
+                    <md-option value="5" translate>5</md-option>
+                    <md-option value="6" translate>6</md-option>
+                    <md-option value="7" translate>7</md-option>
+                    <md-option value="8" translate>8</md-option>
+                </md-select>
+            </md-input-container>
+        </div>
+
+        <table>
+            <div class="search">
+                        <h2 translate>{{'FLASHCARDTABLE.SEARCH_ID'}}:</h2>  <input class="query" ng-model="search" type="text"/>
+            </div>
+            <tr>
+                <th><a translate>{{'FLASHCARDTABLE.CHARACTER_ID'}}</a></th>
+                <th><a href="" ng-click="sortField = 'pinyin'; reverse =!reverse" translate>{{'FLASHCARDTABLE.PINYIN_ID'}}</a></th>
+                <th><a href="" ng-click="sortField = 'translation_d'; reverse =!reverse" translate>{{'FLASHCARDTABLE.TRANSLATION_ID'}}</a></th>
+            </tr>
+            <tr ng-repeat="Card in Cards | filter  : chapterSelection | filter : search : ignoreTones | orderBy: sortField ">
+                <td>{{Card.character}}</td>
+                <td>{{Card.pinyin}}</td>
+                <td ng-show="language=='de'">{{Card.translation_d}}</td>
+                <td ng-show="language == 'en'">{{Card.translation_e}}</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
