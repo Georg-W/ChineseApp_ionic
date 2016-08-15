@@ -1,29 +1,15 @@
+<link href="../../styles/desktop/menu.css" rel="stylesheet">
+<link href="../../styles/index.css" rel="stylesheet">
+<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200' rel='stylesheet' type='text/css'>
 
-<ion-side-menus enable-menu-with-back-views="false">
-  <ion-side-menu-content>
-    <ion-nav-bar class="bar-stable">
-      <ion-nav-back-button></ion-nav-back-button>
-      <ion-nav-buttons side="left">
-        <button class="button button-icon button-clear ion-navicon" menu-toggle="left"></button>
-      </ion-nav-buttons>
-    </ion-nav-bar>
-    <ion-nav-view name="sidemenu"></ion-nav-view>
-  </ion-side-menu-content>
-  <ion-side-menu side="left" id="sidemenu">
-    <ion-header-bar class="bar-stable">
-      <div class="title">{{'MENU.MENU_ID' | translate}}</div>
-    </ion-header-bar>
-    <ion-content padding="false" class="side-menu-left has-header">
-      <ion-list id="menu-list3" class=" ">
-        <ion-item id="menu-list-item2" href="#/app/flashcards" menu-close="" class="  ">{{'MENU.FLASHCARDS_ID' | translate}}</ion-item>
-        <ion-item id="menu-list-item5" href="#/app/quiz" menu-close="" class="  ">{{'MENU.QUIZ_ID' | translate}}</ion-item>
-        <ion-item class="item-icon-left  " id="menu-list-item6" href="#/app/about" menu-close="">
-          <i class="icon ion-information"></i>{{'MENU.ABOUT_ID' | translate}}</ion-item>
-        <ion-item class="item-icon-left  " id="menu-list-item10" href="#/app/settings" menu-close="">
-          <i class="icon ion-ios-cog-outline"></i>{{'MENU.SETTINGS_ID' | translate}}</ion-item>
-        <ion-item class="item-icon-left  " id="menu-list-item11" href="#/app/feedback" menu-close="">
-          <i class="icon ion-paper-airplane"></i>{{'MENU.FEEDBACK_ID' | translate}}</ion-item>
-      </ion-list>
-    </ion-content>
-  </ion-side-menu>
-</ion-side-menus>
+<div id="container">
+  <header>
+    <ul>
+      <li><a class="selected" href="#/app/f">Flashcards</a></li>
+      <li><a href="#/app/q">Quiz</a></li>
+      <li><a href="#/app/a">About</a></li>
+      <li><a href="#/app/fe">Feedback</a></li>
+    </ul>
+  </header>
+</div>
+

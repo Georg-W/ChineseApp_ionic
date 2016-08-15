@@ -9,44 +9,20 @@ html, body{
     src: url("../../fonts/KaiTi.ttf");
   }
   */
-
-  height: 100%;
-
   font-family: 'Raleway', sans-serif, "KaiTi", "楷体", STKaiti, "华文楷体", serif;
 }
 
-  #ionic-header {
-    display: none;
-  }
-  a:hover {
-    color:#fff;
-    background: #18b54c;
-  }
-  header {
-    background: #1ec153;
-  }
-  header:after {
-    content: "";
-    display: table;
-    clear:both;
-  }
-  header ul {
-    list-style-type: none;
-  }
-  header ul li {
-     display: inline;
-     float: left;
-  }
-  header ul li a{
-    color: #fff;
-    padding: 40px 70px;
-    text-decoration: none;
-    display: block;
-  }
-  .selected {
-    background-color: #18b54c;
+  #sidemenu{
+    background-color: #BEEB9F;
   }
 
+  .page {
+    background-color: #363F45;
+  }
+
+  #impressum {
+    background-color: white;
+  }
 
 
 

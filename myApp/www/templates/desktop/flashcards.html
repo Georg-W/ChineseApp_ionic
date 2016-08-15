@@ -1,49 +1,44 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Vokabelkarten</title>
-
-    <link rel="stylesheet" href="../../styles/desktop/flashcard_desktop.css">
-
-</head>
-<body ng-controller="flashCardController">
-
-    <div class="container">
-        <div class="chapter">
-            <h2 translate>{{'FLASHCARDTABLE.CHAPTER_ID'}}:</h2>
-            <md-input-container>
-                <label translate>{{QUIZ.CHAPTER_ID}}</label>
-                <md-select ng-model="chapterSelection" md-on-close="takeOverChapter()">
-                    <md-option value="" translate>{{"QUIZ.ALL_ID"}}</md-option>
-                    <md-option value="1" translate>1 Introduction</md-option>
-                    <md-option value="2" translate>2 </md-option>
-                    <md-option value="3" translate>3</md-option>
-                    <md-option value="4" translate>4</md-option>
-                    <md-option value="5" translate>5</md-option>
-                    <md-option value="6" translate>6</md-option>
-                    <md-option value="7" translate>7</md-option>
-                    <md-option value="8" translate>8</md-option>
-                </md-select>
-            </md-input-container>
-        </div>
-
-        <table>
-            <div class="search">
-                        <h2 translate>{{'FLASHCARDTABLE.SEARCH_ID'}}:</h2>  <input class="query" ng-model="search" type="text"/>
-            </div>
-            <tr>
-                <th><a translate>{{'FLASHCARDTABLE.CHARACTER_ID'}}</a></th>
-                <th><a href="" ng-click="sortField = 'pinyin'; reverse =!reverse" translate>{{'FLASHCARDTABLE.PINYIN_ID'}}</a></th>
-                <th><a href="" ng-click="sortField = 'translation_d'; reverse =!reverse" translate>{{'FLASHCARDTABLE.TRANSLATION_ID'}}</a></th>
-            </tr>
-            <tr ng-repeat="Card in Cards | filter  : chapterSelection | filter : search : ignoreTones | orderBy: sortField ">
-                <td>{{Card.character}}</td>
-                <td>{{Card.pinyin}}</td>
-                <td ng-show="language=='de'">{{Card.translation_d}}</td>
-                <td ng-show="language == 'en'">{{Card.translation_e}}</td>
-            </tr>
-        </table>
-    </div>
-</body>
-</html>
+<ion-view title="{{'MENU.FLASHCARDS_ID' | translate}}" id="flashcards" class="page" ng-cloak>
+  <link href="../../styles/android/flashcard.css" rel="stylesheet">
+  <ion-content padding="true" class="has-header">
+    <form id="flashcards-form3" class="list ">
+      <label class="item item-select " id="flashcards-select1">
+        <span class="input-label">{{'FLASHCARDTABLE.CHAPTER_ID' | translate}}</span>
+        <select ng-init="" ng-model="chapterSelection">
+          <option value="">{{'FLASHCARDTABLE.ALL_ID' | translate}}</option>
+          <option value="1">{{'FLASHCARDTABLE.1_ID' | translate}}</option>
+          <option value="2">{{'FLASHCARDTABLE.2_ID' | translate}}</option>
+          <option value="3">{{'FLASHCARDTABLE.3_ID' | translate}}</option>
+          <option value="4">{{'FLASHCARDTABLE.4_ID' | translate}}</option>
+          <option value="5">{{'FLASHCARDTABLE.5_ID' | translate}}</option>
+          <option value="6">{{'FLASHCARDTABLE.6_ID' | translate}}</option>
+          <option value="7">{{'FLASHCARDTABLE.7_ID' | translate}}</option>
+          <option value="8">{{'FLASHCARDTABLE.8_ID' | translate}}</option>
+          <option value="9">{{'FLASHCARDTABLE.9_ID' | translate}}</option>
+          <option value="10">{{'QUIZ.10_ID' | translate}}</option>
+          <option value="11">{{'QUIZ.11_ID' | translate}}</option>
+          <option value="12">{{'QUIZ.12_ID' | translate}}</option>
+          <option value="13">{{'QUIZ.13_ID' | translate}}</option>
+          <option value="14">{{'QUIZ.14_ID' | translate}}</option>
+        </select>
+      </label>
+      <div class="spacer" style="width: 300px; height: 19px;"></div>
+      <label class="item item-input " id="flashcards-input6">
+        <i class="icon ion-search placeholder-icon"></i>
+        <input type="text" placeholder="" class="query" ng-model="search">
+      </label>
+      <div class="spacer" style="width: 300px; height: 19px;"></div>
+      <div>
+        <ion-item id="flashcard-container"  ng-repeat="Card in Cards | filter  : {chapter : chapterSelection} | filter : search : ignoreTones | orderBy: sortField "
+                  ng-click="select(Card)">
+          <div id="flashcard" ng-class="{'active': isActive(Card)}">
+            <div id="character">{{Card.character}}</div>
+            <div id="pinyin">{{Card.pinyin}}</div>
+            <div class="translation" ng-show="language == 'de'">{{Card.translation_d}}</div>
+            <div class="translation" ng-show="language == 'en'">{{Card.translation_e}}</div>
+          </div>
+        </ion-item>
+      </div>
+    </form>
+  </ion-content>
+</ion-view>
