@@ -1,5 +1,345 @@
 ﻿[
     {
+      "character": "卷发",
+      "pinyin": "juǎnfà",
+      "translation_d": "",
+      "translation_e": "curly hair",
+      "characterShow": true,
+      "pinyinShow": true,
+      "translationShow": true,
+      "chapter": "Sherlock_1",
+      "tone": 0
+    },
+    {
+      "character": "案子",
+      "pinyin": "ànzi",
+      "translation_d": "",
+      "translation_e": "criminal case",
+      "characterShow": true,
+      "pinyinShow": true,
+      "translationShow": true,
+      "chapter": "Sherlock_1",
+      "tone": 4
+    },
+    {
+      "character": "意思",
+      "pinyin": "yìsi",
+      "translation_d": "",
+      "translation_e": "meaning",
+      "characterShow": true,
+      "pinyinShow": true,
+      "translationShow": true,
+      "chapter": "Sherlock_1",
+      "tone": 4
+    },
+    {
+      "character": "可是",
+      "pinyin": "kěshì",
+      "translation_d": "",
+      "translation_e": "but, yet, however",
+      "characterShow": true,
+      "pinyinShow": true,
+      "translationShow": true,
+      "chapter": "Sherlock_1",
+      "tone": 0
+    },
+    {
+      "character": "没意思",
+      "pinyin": "méiyìsi",
+      "translation_d": "",
+      "translation_e": "bored",
+      "characterShow": true,
+      "pinyinShow": true,
+      "translationShow": true,
+      "chapter": "Sherlock_1",
+      "tone": 0
+    },
+
+    {
+      "character": "因为",
+      "pinyin": "yīnwèi",
+      "translation_d": "",
+      "translation_e": "because",
+      "characterShow": true,
+      "pinyinShow": true,
+      "translationShow": true,
+      "chapter": "Sherlock_1",
+      "tone": 0
+    },
+    {
+      "character": "时间",
+      "pinyin": "shíjiān",
+      "translation_d": "",
+      "translation_e": "time",
+      "characterShow": true,
+      "pinyinShow": true,
+      "translationShow": true,
+      "chapter": "Sherlock_1",
+      "tone": 0
+    },
+    {
+      "character": "出去",
+      "pinyin": "chūqù",
+      "translation_d": "",
+      "translation_e": "go out",
+      "characterShow": true,
+      "pinyinShow": true,
+      "translationShow": true,
+      "chapter": "Sherlock_1",
+      "tone": 0
+    },
+    {
+      "character": "走走",
+      "pinyin": "zǒuzǒu",
+      "translation_d": "",
+      "translation_e": "walk around",
+      "characterShow": true,
+      "pinyinShow": true,
+      "translationShow": true,
+      "chapter": "Sherlock_1",
+      "tone": 3
+    },
+    {
+      "character": "时候",
+      "pinyin": "shíhou",
+      "translation_d": "",
+      "translation_e": "time (duration)",
+      "characterShow": true,
+      "pinyinShow": true,
+      "translationShow": true,
+      "chapter": "Sherlock_1",
+      "tone": 2
+    },
+    {
+      "character": "看到",
+      "pinyin": "kàndào",
+      "translation_d": "",
+      "translation_e": "catch sight of, see",
+      "characterShow": true,
+      "pinyinShow": true,
+      "translationShow": true,
+      "chapter": "Sherlock_1",
+      "tone": 4
+    },
+    {
+      "character": "说话",
+      "pinyin": "shuōhuà",
+      "translation_d": "",
+      "translation_e": "chat, talk",
+      "characterShow": true,
+      "pinyinShow": true,
+      "translationShow": true,
+      "chapter": "Sherlock_1",
+      "tone": 0
+    },
+    {
+      "character": "看起来",
+      "pinyin": "kànqilai",
+      "translation_d": "",
+      "translation_e": "it seems, it appears",
+      "characterShow": true,
+      "pinyinShow": true,
+      "translationShow": true,
+      "chapter": "Sherlock_1",
+      "tone": 4
+    },
+    {
+      "character": "又",
+      "pinyin": "yòu",
+      "translation_d": "",
+      "translation_e": "(action) again",
+      "characterShow": true,
+      "pinyinShow": true,
+      "translationShow": true,
+      "chapter": "Sherlock_1",
+      "tone": 4
+    },
+    {
+      "character": "点",
+      "pinyin": "diǎn",
+      "translation_d": "",
+      "translation_e": "a bit",
+      "characterShow": true,
+      "pinyinShow": true,
+      "translationShow": true,
+      "chapter": "Sherlock_1",
+      "tone": 3
+    },
+    {
+      "character": "胖",
+      "pinyin": "pàng",
+      "translation_d": "",
+      "translation_e": "fat",
+      "characterShow": true,
+      "pinyinShow": true,
+      "translationShow": true,
+      "chapter": "Sherlock_1",
+      "tone": 4
+    },
+    {
+      "character": "笑",
+      "pinyin": "xiào",
+      "translation_d": "",
+      "translation_e": "smile, laugh",
+      "characterShow": true,
+      "pinyinShow": true,
+      "translationShow": true,
+      "chapter": "Sherlock_1",
+      "tone": 4
+    },
+    {
+      "character": "这里",
+      "pinyin": "zhèlǐ",
+      "translation_d": "",
+      "translation_e": "here",
+      "characterShow": true,
+      "pinyinShow": true,
+      "translationShow": true,
+      "chapter": "Sherlock_1",
+      "tone": 0
+    },
+    {
+      "character": "慢慢",
+      "pinyin": "mànmàn",
+      "translation_d": "",
+      "translation_e": "slowly",
+      "characterShow": true,
+      "pinyinShow": true,
+      "translationShow": true,
+      "chapter": "Sherlock_1",
+      "tone": 4
+    },
+    {
+      "character": "拿",
+      "pinyin": "ná",
+      "translation_d": "",
+      "translation_e": "hold, take",
+      "characterShow": true,
+      "pinyinShow": true,
+      "translationShow": true,
+      "chapter": "Sherlock_1",
+      "tone": 2
+    },
+    {
+      "character": "出",
+      "pinyin": "chū",
+      "translation_d": "",
+      "translation_e": "get out",
+      "characterShow": true,
+      "pinyinShow": true,
+      "translationShow": true,
+      "chapter": "Sherlock_1",
+      "tone": 1
+    },
+    {
+      "character": "别的",
+      "pinyin": "biéde",
+      "translation_d": "",
+      "translation_e": "other",
+      "characterShow": true,
+      "pinyinShow": true,
+      "translationShow": true,
+      "chapter": "Sherlock_1",
+      "tone": 2
+    },
+    {
+      "character": "一定",
+      "pinyin": "yīdìng",
+      "translation_d": "",
+      "translation_e": "surely, certainly",
+      "characterShow": true,
+      "pinyinShow": true,
+      "translationShow": true,
+      "chapter": "Sherlock_1",
+      "tone": 0
+    },
+    {
+      "character": "以前",
+      "pinyin": "yǐqián",
+      "translation_d": "",
+      "translation_e": "before",
+      "characterShow": true,
+      "pinyinShow": true,
+      "translationShow": true,
+      "chapter": "Sherlock_1",
+      "tone": 0
+    },
+    {
+      "character": "一下",
+      "pinyin": "yīxià",
+      "translation_d": "",
+      "translation_e": "right away, one time",
+      "characterShow": true,
+      "pinyinShow": true,
+      "translationShow": true,
+      "chapter": "Sherlock_1",
+      "tone": 0
+    },
+    {
+      "character": "这些",
+      "pinyin": "zhěxiē",
+      "translation_d": "",
+      "translation_e": "these",
+      "characterShow": true,
+      "pinyinShow": true,
+      "translationShow": true,
+      "chapter": "Sherlock_1",
+      "tone": 0
+    },
+    {
+      "character": "",
+      "pinyin": "",
+      "translation_d": "",
+      "translation_e": "",
+      "characterShow": true,
+      "pinyinShow": true,
+      "translationShow": true,
+      "chapter": "Sherlock_1",
+      "tone": 0
+    },
+    {
+      "character": "",
+      "pinyin": "",
+      "translation_d": "",
+      "translation_e": "",
+      "characterShow": true,
+      "pinyinShow": true,
+      "translationShow": true,
+      "chapter": "Sherlock_1",
+      "tone": 0
+    },
+    {
+      "character": "",
+      "pinyin": "",
+      "translation_d": "",
+      "translation_e": "",
+      "characterShow": true,
+      "pinyinShow": true,
+      "translationShow": true,
+      "chapter": "Sherlock_1",
+      "tone": 0
+    },
+    {
+      "character": "",
+      "pinyin": "",
+      "translation_d": "",
+      "translation_e": "",
+      "characterShow": true,
+      "pinyinShow": true,
+      "translationShow": true,
+      "chapter": "Sherlock_1",
+      "tone": 0
+    },
+
+
+
+
+
+
+
+
+
+    {
       "character": "你",
       "pinyin": "nǐ",
       "translation_d": "du",

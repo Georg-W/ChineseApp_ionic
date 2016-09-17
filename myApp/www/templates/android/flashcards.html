@@ -20,6 +20,7 @@
                     <option value="12">{{'QUIZ.12_ID' | translate}}</option>
                     <option value="13">{{'QUIZ.13_ID' | translate}}</option>
                     <option value="14">{{'QUIZ.14_ID' | translate}}</option>
+                    <option value="Sherlock_1">Sherlock_1</option>
                 </select>
             </label>
             <div class="spacer" style="width: 300px; height: 19px;"></div>
@@ -34,8 +35,8 @@
               <div id="flashcard"ng-class="{'active': isActive(Card)}">
                 <div id="character">{{Card.character}}</div>
                 <div id="pinyin">{{Card.pinyin}}</div>
-                <div class="translation" ng-show="language == 'de'">{{Card.translation_d}}</div>
-                <div class="translation" ng-show="language == 'en'">{{Card.translation_e}}</div>
+                <div class="translation" ng-show="language == 'de'  || !Card.translation_e">{{Card.translation_d}}</div>
+                <div class="translation" ng-show="language == 'en' || !Card.translation_d">{{Card.translation_e}}</div>
               </div>
             </ion-item>
             </div>

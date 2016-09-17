@@ -20,6 +20,7 @@
                     <option value="12">{{'QUIZ.12_ID' | translate}}</option>
                     <option value="13">{{'QUIZ.13_ID' | translate}}</option>
                     <option value="14">{{'QUIZ.14_ID' | translate}}</option>
+                    <option value="Sherlock_1">Sherlock</option>
                 </select>
             </label>
         </form>
@@ -27,18 +28,26 @@
             <button id="quiz-button6" class=" button button-positive  button-block " ng-click="Minus()">{{'QUIZ.BACK_ID' | translate}}</button>
             <button id="quiz-button8" class=" button button-positive  button-block " ng-click="Add()">{{'QUIZ.NEXT_ID' | translate}}</button>
         </div>
-        <div class="list card " id="quiz-card" >
-            <ion-card class="character" ng-show="Cards[index].characterShow" style="font-size: 8em;"><br><p>{{Cards[index].character}}</p><br></ion-card>
-            <ion-item class="  " ng-show="Cards[index].pinyinShow == false" style="font-size: 2em;">{{Cards[index].pinyin}}</ion-item>
+        <class="card" id="quiz-card">
 
-            <div ng-show="Cards[index].translationShow == false">
-                <div ng-show="language == 'de'">
-                  <ion-item class="translation" style="font-size: 2em; align-content: center;"><p>{{Cards[index].translation_d}}</p></ion-item>
-                </div>
-                <div ng-show="language == 'en'">
-                  <ion-item  class="translation" style="font-size: 2em;"><p>{{Cards[index].translation_e}}</p></ion-item>
-                </div>
-            </div>
+          <ion-card class="front" ng-show="Cards[index].characterShow">
+            <ion-item>
+              <p id="character"><br><br><br>{{Cards[index].character}}</p><br>
+            </ion-item>
+          </ion-card>
+
+          <ion-card class="back">
+            <ion-item class="back-attributes" ng-show="Cards[index].pinyinShow == false" >{{Cards[index].pinyin}}</ion-item>
+
+              <div id="" ng-show="Cards[index].translationShow == false">
+                  <div ng-show="language == 'de' || !Cards[index].translation_e">
+                    <ion-item class="back-attributes">{{Cards[index].translation_d}}</ion-item>
+                  </div>
+                  <div ng-show="language == 'en' || !Cards[index].translation_de">
+                    <ion-item  class="back-attributes">{{Cards[index].translation_e}}</ion-item>
+                  </div>
+              </div>
+          </ion-card>
         </div>
         <button id="quiz-button9" class=" button button-positive  button-block " ng-click="answer()">{{'QUIZ.TURNCARD_ID' | translate}}</button>
     </ion-content>

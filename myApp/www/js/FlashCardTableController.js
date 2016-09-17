@@ -13,9 +13,7 @@
 
             getCards();
 
-
-
-
+          
           $scope.active = false;
 
 
